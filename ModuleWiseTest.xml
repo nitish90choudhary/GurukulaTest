@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Gurukula Fucntional Test Automation Suite">
+
+	<test thread-count="1" name="Login Test" enabled="true" parallel="false"
+		preserve-order="true">
+		<classes>
+			<class name="com.gurukula.tests.LoginTest" />
+
+		</classes>
+	</test>
+	<test thread-count="1" name="Registration Test" enabled="true"
+		parallel="false" preserve-order="true">
+		<classes>
+			<class name="com.gurukula.tests.RegistrationTest" />
+
+		</classes>
+	</test>
+
+	<test thread-count="1" name="Account Test" enabled="true"
+		parallel="false" preserve-order="true">
+		<classes>
+			<class name="com.gurukula.tests.AccountTest" />
+
+		</classes>
+	</test>
+
+	<test thread-count="1" name="Branch Test" enabled="true" parallel="false"
+		preserve-order="true">
+		<classes>
+			<class name="com.gurukula.tests.BranchTest" />
+
+		</classes>
+	</test>
+
+	<test thread-count="1" name="Staff Test" enabled="true" parallel="false"
+		preserve-order="true">
+		<classes>
+			<class name="com.gurukula.tests.StaffTest" />
+
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->
