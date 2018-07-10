@@ -1,0 +1,1634 @@
+<html>
+<head>
+<title>TestNG:  Full Regression Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Full Regression Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>69/13/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jul 10 03:39:34 CEST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>334 seconds (334520 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.gurukula.tests.LoginTest.M1_TS04_Verify_Reset_your_password()'><b>M1_TS04_Verify_Reset_your_password</b><br>Test class: com.gurukula.tests.LoginTest<br>Parameters: 4, email1234567890123456789012345678901234567812@com, Your e-mail cannot be longer than 50 characters.<br/>
+<a href="#Output-1444494906" onClick='toggleBox("Output-1444494906", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1444494906" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1444494906">
+TC04_Verify Reset your password functionality<br/>
+Verification of Confirm Password Error Message -><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [Your e-mail cannot be longer than 50 characters.] but found []
+	at com.gurukula.tests.LoginTest.M1_TS04_Verify_Reset_your_password(LoginTest.java:100)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1444494906", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1444494906'><pre>java.lang.AssertionError: expected [Your e-mail cannot be longer than 50 characters.] but found []
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.gurukula.tests.LoginTest.M1_TS04_Verify_Reset_your_password(LoginTest.java:100)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>2</td>
+<td>com.gurukula.tests.LoginTest@77caeb3e</td></tr>
+<tr>
+<td title='com.gurukula.tests.LoginTest.M1_TS04_Verify_Reset_your_password()'><b>M1_TS04_Verify_Reset_your_password</b><br>Test class: com.gurukula.tests.LoginTest<br>Parameters: 6, admin@localhost, Success!<br/>
+<a href="#Output-203717378" onClick='toggleBox("Output-203717378", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-203717378" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-203717378">
+TC04_Verify Reset your password functionality<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [Success!] but found []
+	at com.gurukula.tests.LoginTest.M1_TS04_Verify_Reset_your_password(LoginTest.java:110)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace203717378", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace203717378'><pre>java.lang.AssertionError: expected [Success!] but found []
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.gurukula.tests.LoginTest.M1_TS04_Verify_Reset_your_password(LoginTest.java:110)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>com.gurukula.tests.LoginTest@77caeb3e</td></tr>
+<tr>
+<td title='com.gurukula.tests.RegistrationTest.M2_TS01_Verify_NewUser_Registration()'><b>M2_TS01_Verify_NewUser_Registration</b><br>Test class: com.gurukula.tests.RegistrationTest<br>Parameters: nitish, nitish@opentrash.com, Test@2018!!!!!, Test@2018!!!!!<br/>
+<a href="#Output-340234965" onClick='toggleBox("Output-340234965", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-340234965" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-340234965">
+Click Register a new account link -><br/>
+Enter Login Name [nitish] -><br/>
+Enter Email [nitish@opentrash.com] -><br/>
+Enter Password [Test@2018!!!!!] -><br/>
+Enter Confirm Password [Test@2018!!!!!] -><br/>
+Click Register Button -><br/>
+Verify Success Message<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [Registration Success!] but found [Registration failed!]
+	at com.gurukula.tests.RegistrationTest.M2_TS01_Verify_NewUser_Registration(RegistrationTest.java:51)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace340234965", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace340234965'><pre>java.lang.AssertionError: expected [Registration Success!] but found [Registration failed!]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.gurukula.tests.RegistrationTest.M2_TS01_Verify_NewUser_Registration(RegistrationTest.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>7</td>
+<td>com.gurukula.tests.RegistrationTest@1e88b3c</td></tr>
+<tr>
+<td title='com.gurukula.tests.RegistrationTest.M2_TS03_Registeration_ErrorMessageVerification()'><b>M2_TS03_Registeration_ErrorMessageVerification</b><br>Test class: com.gurukula.tests.RegistrationTest<br>Parameters: 7, user, email1234567890123456789012345678901234567812@com, , , Your e-mail cannot be longer than 50 characters.<br/>
+<a href="#Output-60942339" onClick='toggleBox("Output-60942339", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-60942339" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-60942339">
+Click Register a new account link -><br/>
+Verification of Email Error Message -><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [Your e-mail cannot be longer than 50 characters.] but found []
+	at com.gurukula.tests.RegistrationTest.M2_TS03_Registeration_ErrorMessageVerification(RegistrationTest.java:102)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace60942339", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace60942339'><pre>java.lang.AssertionError: expected [Your e-mail cannot be longer than 50 characters.] but found []
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.gurukula.tests.RegistrationTest.M2_TS03_Registeration_ErrorMessageVerification(RegistrationTest.java:102)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>com.gurukula.tests.RegistrationTest@1e88b3c</td></tr>
+<tr>
+<td title='com.gurukula.tests.RegistrationTest.M2_TS03_Registeration_ErrorMessageVerification()'><b>M2_TS03_Registeration_ErrorMessageVerification</b><br>Test class: com.gurukula.tests.RegistrationTest<br>Parameters: 11, user, a@abc.com, 12345$, , Password should begin with a alphabet and should contain a number and a special character.<br/>
+<a href="#Output-1861384953" onClick='toggleBox("Output-1861384953", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1861384953" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1861384953">
+Click Register a new account link -><br/>
+Verification of Password Error Message -><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [Password should begin with a alphabet and should contain a number and a special character.] but found []
+	at com.gurukula.tests.RegistrationTest.M2_TS03_Registeration_ErrorMessageVerification(RegistrationTest.java:119)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1861384953", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1861384953'><pre>java.lang.AssertionError: expected [Password should begin with a alphabet and should contain a number and a special character.] but found []
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.gurukula.tests.RegistrationTest.M2_TS03_Registeration_ErrorMessageVerification(RegistrationTest.java:119)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.gurukula.tests.RegistrationTest@1e88b3c</td></tr>
+<tr>
+<td title='com.gurukula.tests.RegistrationTest.M2_TS03_Registeration_ErrorMessageVerification()'><b>M2_TS03_Registeration_ErrorMessageVerification</b><br>Test class: com.gurukula.tests.RegistrationTest<br>Parameters: 15, user, a@a, , 12345$, Password should begin with a alphabet and should contain a number and a special character.<br/>
+<a href="#Output-2136765752" onClick='toggleBox("Output-2136765752", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2136765752" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2136765752">
+Click Register a new account link -><br/>
+Verification of Confirm Password Error Message -><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [Password should begin with a alphabet and should contain a number and a special character.] but found []
+	at com.gurukula.tests.RegistrationTest.M2_TS03_Registeration_ErrorMessageVerification(RegistrationTest.java:137)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2136765752", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2136765752'><pre>java.lang.AssertionError: expected [Password should begin with a alphabet and should contain a number and a special character.] but found []
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.gurukula.tests.RegistrationTest.M2_TS03_Registeration_ErrorMessageVerification(RegistrationTest.java:137)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>com.gurukula.tests.RegistrationTest@1e88b3c</td></tr>
+<tr>
+<td title='com.gurukula.tests.AccountTest.M3_TS01_Verify_user_settings_change()'><b>M3_TS01_Verify_user_settings_change</b><br>Test class: com.gurukula.tests.AccountTest</td>
+<td><div><pre>java.lang.AssertionError: expected [Sucess!] but found [An error has occurred!]
+	at com.gurukula.tests.AccountTest.M3_TS01_Verify_user_settings_change(AccountTest.java:60)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace895909810", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace895909810'><pre>java.lang.AssertionError: expected [Sucess!] but found [An error has occurred!]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.gurukula.tests.AccountTest.M3_TS01_Verify_user_settings_change(AccountTest.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>2</td>
+<td>com.gurukula.tests.AccountTest@42d80b78</td></tr>
+<tr>
+<td title='com.gurukula.tests.AccountTest.M3_TS02_Verify_Change_user_password()'><b>M3_TS02_Verify_Change_user_password</b><br>Test class: com.gurukula.tests.AccountTest</td>
+<td><div><pre>java.lang.AssertionError: expected [Sucess!] but found [An error has occurred!]
+	at com.gurukula.tests.AccountTest.M3_TS02_Verify_Change_user_password(AccountTest.java:81)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace904779910", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace904779910'><pre>java.lang.AssertionError: expected [Sucess!] but found [An error has occurred!]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.gurukula.tests.AccountTest.M3_TS02_Verify_Change_user_password(AccountTest.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>5</td>
+<td>com.gurukula.tests.AccountTest@42d80b78</td></tr>
+<tr>
+<td title='com.gurukula.tests.AccountTest.M3_TS03_VerifyPasswordStrength_ChangePwdScreen()'><b>M3_TS03_VerifyPasswordStrength_ChangePwdScreen</b><br>Test class: com.gurukula.tests.AccountTest<br>Parameters: 8, 12345$, , Password should begin with a alphabet and should contain a number and a special character.<br/>
+<a href="#Output-411047375" onClick='toggleBox("Output-411047375", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-411047375" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-411047375">
+Click Passwords sub-menu -><br/>
+Verification of Password Error Message -><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [Password should begin with a alphabet and should contain a number and a special character.] but found []
+	at com.gurukula.tests.AccountTest.M3_TS03_VerifyPasswordStrength_ChangePwdScreen(AccountTest.java:127)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace411047375", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace411047375'><pre>java.lang.AssertionError: expected [Password should begin with a alphabet and should contain a number and a special character.] but found []
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.gurukula.tests.AccountTest.M3_TS03_VerifyPasswordStrength_ChangePwdScreen(AccountTest.java:127)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>com.gurukula.tests.AccountTest@42d80b78</td></tr>
+<tr>
+<td title='com.gurukula.tests.AccountTest.M3_TS03_VerifyPasswordStrength_ChangePwdScreen()'><b>M3_TS03_VerifyPasswordStrength_ChangePwdScreen</b><br>Test class: com.gurukula.tests.AccountTest<br>Parameters: 12, , 12345$, Password should begin with a alphabet and should contain a number and a special character.<br/>
+<a href="#Output-1672693310" onClick='toggleBox("Output-1672693310", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1672693310" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1672693310">
+Click Passwords sub-menu -><br/>
+Verification of Confirm Password Error Message -><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [Password should begin with a alphabet and should contain a number and a special character.] but found []
+	at com.gurukula.tests.AccountTest.M3_TS03_VerifyPasswordStrength_ChangePwdScreen(AccountTest.java:151)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1672693310", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1672693310'><pre>java.lang.AssertionError: expected [Password should begin with a alphabet and should contain a number and a special character.] but found []
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.gurukula.tests.AccountTest.M3_TS03_VerifyPasswordStrength_ChangePwdScreen(AccountTest.java:151)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>com.gurukula.tests.AccountTest@42d80b78</td></tr>
+<tr>
+<td title='com.gurukula.tests.AccountTest.M3_TS03_VerifyPasswordStrength_ChangePwdScreen()'><b>M3_TS03_VerifyPasswordStrength_ChangePwdScreen</b><br>Test class: com.gurukula.tests.AccountTest<br>Parameters: 13, 12345, 45678, The password and its confirmation do not match!<br/>
+<a href="#Output-798569714" onClick='toggleBox("Output-798569714", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-798569714" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-798569714">
+Click Passwords sub-menu -><br/>
+Verification of Password Mismatch Error Message -><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [The password and its confirmation do not match!] but found [Password for [admin]
+The password and its confirmation do not match!
+New password
+Password strength:
+New password confirmation
+Save
+Copyright © 2015. All rights reserved]
+	at com.gurukula.tests.AccountTest.M3_TS03_VerifyPasswordStrength_ChangePwdScreen(AccountTest.java:158)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace798569714", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace798569714'><pre>java.lang.AssertionError: expected [The password and its confirmation do not match!] but found [Password for [admin]
+The password and its confirmation do not match!
+New password
+Password strength:
+New password confirmation
+Save
+Copyright © 2015. All rights reserved]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.gurukula.tests.AccountTest.M3_TS03_VerifyPasswordStrength_ChangePwdScreen(AccountTest.java:158)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>com.gurukula.tests.AccountTest@42d80b78</td></tr>
+<tr>
+<td title='com.gurukula.tests.AccountTest.M3_TS04_VerifySettings_EmailFieldErrors()'><b>M3_TS04_VerifySettings_EmailFieldErrors</b><br>Test class: com.gurukula.tests.AccountTest<br>Parameters: 4, email1234567890123456789012345678901234567812@com, Your e-mail cannot be longer than 50 characters.<br/>
+<a href="#Output-2137971800" onClick='toggleBox("Output-2137971800", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2137971800" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2137971800">
+Click Settings sub-menu -><br/>
+Verification of Email Error Message -><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [Your e-mail cannot be longer than 50 characters.] but found []
+	at com.gurukula.tests.AccountTest.M3_TS04_VerifySettings_EmailFieldErrors(AccountTest.java:188)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2137971800", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2137971800'><pre>java.lang.AssertionError: expected [Your e-mail cannot be longer than 50 characters.] but found []
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.gurukula.tests.AccountTest.M3_TS04_VerifySettings_EmailFieldErrors(AccountTest.java:188)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>com.gurukula.tests.AccountTest@42d80b78</td></tr>
+<tr>
+<td title='com.gurukula.tests.AccountTest.M3_TS05_Verify_Invalidate_Session()'><b>M3_TS05_Verify_Invalidate_Session</b><br>Test class: com.gurukula.tests.AccountTest</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;M5-L-5194G16&apos;, ip: &apos;172.31.9.133&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\NITISH~1.CHO\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 3ddf396466a672e3b5e00e550f965fb3
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:160)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy11.getText(Unknown Source)
+	at com.gurukula.pages.BasicPage.getPageHeader(BasicPage.java:74)
+	at com.gurukula.tests.AccountTest.M3_TS05_Verify_Invalidate_Session(AccountTest.java:203)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1079596413", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1079596413'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;M5-L-5194G16&apos;, ip: &apos;172.31.9.133&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\NITISH~1.CHO\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 3ddf396466a672e3b5e00e550f965fb3
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:160)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy11.getText(Unknown Source)
+	at com.gurukula.pages.BasicPage.getPageHeader(BasicPage.java:74)
+	at com.gurukula.tests.AccountTest.M3_TS05_Verify_Invalidate_Session(AccountTest.java:203)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>com.gurukula.tests.AccountTest@42d80b78</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.gurukula.tests.LoginTest.M1_TS01_Login_VerifyApplicationIsUp()'><b>M1_TS01_Login_VerifyApplicationIsUp</b><br>Test class: com.gurukula.tests.LoginTest<br/>
+<a href="#Output-1551139176" onClick='toggleBox("Output-1551139176", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1551139176" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1551139176">
+TC01_Verify Application is running<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.gurukula.tests.LoginTest@77caeb3e</td></tr>
+<tr>
+<td title='com.gurukula.tests.LoginTest.M1_TS02_VerifyLogin()'><b>M1_TS02_VerifyLogin</b><br>Test class: com.gurukula.tests.LoginTest<br>Parameters: admin, admin<br/>
+<a href="#Output-69160933" onClick='toggleBox("Output-69160933", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-69160933" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-69160933">
+Step 1 : Click Login Button<br/>
+Step 2 : Enter Username <admin><br/>
+Step 3 : Enter Password <admin><br/>
+Step 4 : Click Authenticate Button<br/>
+Step 5 : Verify Login should be sucessful
+<br/>
+Step 6 : Logout user<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.gurukula.tests.LoginTest@77caeb3e</td></tr>
+<tr>
+<td title='com.gurukula.tests.LoginTest.M1_TS03_VerifyInvalidLogin()'><b>M1_TS03_VerifyInvalidLogin</b><br>Test class: com.gurukula.tests.LoginTest<br>Parameters:  ,  </td>
+<td></td>
+<td>2</td>
+<td>com.gurukula.tests.LoginTest@77caeb3e</td></tr>
+<tr>
+<td title='com.gurukula.tests.LoginTest.M1_TS03_VerifyInvalidLogin()'><b>M1_TS03_VerifyInvalidLogin</b><br>Test class: com.gurukula.tests.LoginTest<br>Parameters: admin, 123456</td>
+<td></td>
+<td>1</td>
+<td>com.gurukula.tests.LoginTest@77caeb3e</td></tr>
+<tr>
+<td title='com.gurukula.tests.LoginTest.M1_TS03_VerifyInvalidLogin()'><b>M1_TS03_VerifyInvalidLogin</b><br>Test class: com.gurukula.tests.LoginTest<br>Parameters: user, admin</td>
+<td></td>
+<td>1</td>
+<td>com.gurukula.tests.LoginTest@77caeb3e</td></tr>
+<tr>
+<td title='com.gurukula.tests.LoginTest.M1_TS03_VerifyInvalidLogin()'><b>M1_TS03_VerifyInvalidLogin</b><br>Test class: com.gurukula.tests.LoginTest<br>Parameters: Tom, 123456</td>
+<td></td>
+<td>1</td>
+<td>com.gurukula.tests.LoginTest@77caeb3e</td></tr>
+<tr>
+<td title='com.gurukula.tests.LoginTest.M1_TS04_Verify_Reset_your_password()'><b>M1_TS04_Verify_Reset_your_password</b><br>Test class: com.gurukula.tests.LoginTest<br>Parameters: 1, email, Your e-mail is invalid.<br/>
+<a href="#Output-1605650788" onClick='toggleBox("Output-1605650788", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1605650788" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1605650788">
+TC04_Verify Reset your password functionality<br/>
+Verification of Confirm Password Error Message Your e-mail is invalid.-><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.gurukula.tests.LoginTest@77caeb3e</td></tr>
+<tr>
+<td title='com.gurukula.tests.LoginTest.M1_TS04_Verify_Reset_your_password()'><b>M1_TS04_Verify_Reset_your_password</b><br>Test class: com.gurukula.tests.LoginTest<br>Parameters: 2, a@a.com, Your e-mail is required.<br/>
+<a href="#Output-1160692359" onClick='toggleBox("Output-1160692359", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1160692359" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1160692359">
+TC04_Verify Reset your password functionality<br/>
+Verification of Confirm Password Error Message Your e-mail is required.-><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.gurukula.tests.LoginTest@77caeb3e</td></tr>
+<tr>
+<td title='com.gurukula.tests.LoginTest.M1_TS04_Verify_Reset_your_password()'><b>M1_TS04_Verify_Reset_your_password</b><br>Test class: com.gurukula.tests.LoginTest<br>Parameters: 3, a@a, Your e-mail is required to be at least 5 characters.<br/>
+<a href="#Output-997692431" onClick='toggleBox("Output-997692431", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-997692431" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-997692431">
+TC04_Verify Reset your password functionality<br/>
+Verification of Confirm Password Error Message Your e-mail is required to be at least 5 characters.-><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.gurukula.tests.LoginTest@77caeb3e</td></tr>
+<tr>
+<td title='com.gurukula.tests.LoginTest.M1_TS04_Verify_Reset_your_password()'><b>M1_TS04_Verify_Reset_your_password</b><br>Test class: com.gurukula.tests.LoginTest<br>Parameters: 5, admin@localhost.com, E-Mail address isn't registered!<br/>
+<a href="#Output-1937867829" onClick='toggleBox("Output-1937867829", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1937867829" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1937867829">
+TC04_Verify Reset your password functionality<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.gurukula.tests.LoginTest@77caeb3e</td></tr>
+<tr>
+<td title='com.gurukula.tests.RegistrationTest.M2_TS02_VerifyPasswordStrength()'><b>M2_TS02_VerifyPasswordStrength</b><br>Test class: com.gurukula.tests.RegistrationTest<br>Parameters: nitish, nitish@opentrash.com, Test@2018!!!!!, , Very Strong<br/>
+<a href="#Output-1965969606" onClick='toggleBox("Output-1965969606", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1965969606" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1965969606">
+Click Register a new account link -><br/>
+Enter Login Name [nitish] -><br/>
+Enter Email [nitish@opentrash.com] -><br/>
+Enter Password [Test@2018!!!!!] -><br/>
+Enter Confirm Password [] -><br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.gurukula.tests.RegistrationTest@1e88b3c</td></tr>
+<tr>
+<td title='com.gurukula.tests.RegistrationTest.M2_TS02_VerifyPasswordStrength()'><b>M2_TS02_VerifyPasswordStrength</b><br>Test class: com.gurukula.tests.RegistrationTest<br>Parameters: nitish, nitish@opentrash.com, Test@2018, , Strong<br/>
+<a href="#Output-1343715686" onClick='toggleBox("Output-1343715686", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1343715686" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1343715686">
+Click Register a new account link -><br/>
+Enter Login Name [nitish] -><br/>
+Enter Email [nitish@opentrash.com] -><br/>
+Enter Password [Test@2018] -><br/>
+Enter Confirm Password [] -><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.gurukula.tests.RegistrationTest@1e88b3c</td></tr>
+<tr>
+<td title='com.gurukula.tests.RegistrationTest.M2_TS02_VerifyPasswordStrength()'><b>M2_TS02_VerifyPasswordStrength</b><br>Test class: com.gurukula.tests.RegistrationTest<br>Parameters: nitish, nitish@opentrash.com, 12345, , Very Weak<br/>
+<a href="#Output-114804898" onClick='toggleBox("Output-114804898", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-114804898" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-114804898">
+Click Register a new account link -><br/>
+Enter Login Name [nitish] -><br/>
+Enter Email [nitish@opentrash.com] -><br/>
+Enter Password [12345] -><br/>
+Enter Confirm Password [] -><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.gurukula.tests.RegistrationTest@1e88b3c</td></tr>
+<tr>
+<td title='com.gurukula.tests.RegistrationTest.M2_TS02_VerifyPasswordStrength()'><b>M2_TS02_VerifyPasswordStrength</b><br>Test class: com.gurukula.tests.RegistrationTest<br>Parameters: nitish, nitish@opentrash.com, 12345abcde, , Weak<br/>
+<a href="#Output-285144794" onClick='toggleBox("Output-285144794", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-285144794" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-285144794">
+Click Register a new account link -><br/>
+Enter Login Name [nitish] -><br/>
+Enter Email [nitish@opentrash.com] -><br/>
+Enter Password [12345abcde] -><br/>
+Enter Confirm Password [] -><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.gurukula.tests.RegistrationTest@1e88b3c</td></tr>
+<tr>
+<td title='com.gurukula.tests.RegistrationTest.M2_TS03_Registeration_ErrorMessageVerification()'><b>M2_TS03_Registeration_ErrorMessageVerification</b><br>Test class: com.gurukula.tests.RegistrationTest<br>Parameters: 1, A, email, password, confirmpass, Your login is required.<br/>
+<a href="#Output-730232355" onClick='toggleBox("Output-730232355", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-730232355" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-730232355">
+Click Register a new account link -><br/>
+Verification of Login Error Message Your login is required.-><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.gurukula.tests.RegistrationTest@1e88b3c</td></tr>
+<tr>
+<td title='com.gurukula.tests.RegistrationTest.M2_TS03_Registeration_ErrorMessageVerification()'><b>M2_TS03_Registeration_ErrorMessageVerification</b><br>Test class: com.gurukula.tests.RegistrationTest<br>Parameters: 2, A123, email, password, confirmpass, Your login can only contain lower-case letters and digits.<br/>
+<a href="#Output-1002279474" onClick='toggleBox("Output-1002279474", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1002279474" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1002279474">
+Click Register a new account link -><br/>
+Verification of Login Error Message Your login can only contain lower-case letters and digits.-><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.gurukula.tests.RegistrationTest@1e88b3c</td></tr>
+<tr>
+<td title='com.gurukula.tests.RegistrationTest.M2_TS03_Registeration_ErrorMessageVerification()'><b>M2_TS03_Registeration_ErrorMessageVerification</b><br>Test class: com.gurukula.tests.RegistrationTest<br>Parameters: 3, a123456789012345678901234567890123456789012345678901, , , , Your login cannot be longer than 50 characters.<br/>
+<a href="#Output-800126002" onClick='toggleBox("Output-800126002", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-800126002" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-800126002">
+Click Register a new account link -><br/>
+Verification of Login Error Message Your login cannot be longer than 50 characters.-><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.gurukula.tests.RegistrationTest@1e88b3c</td></tr>
+<tr>
+<td title='com.gurukula.tests.RegistrationTest.M2_TS03_Registeration_ErrorMessageVerification()'><b>M2_TS03_Registeration_ErrorMessageVerification</b><br>Test class: com.gurukula.tests.RegistrationTest<br>Parameters: 4, user, email, , , Your e-mail is invalid.<br/>
+<a href="#Output-1438161681" onClick='toggleBox("Output-1438161681", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1438161681" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1438161681">
+Click Register a new account link -><br/>
+Verification of Email Error Message Your e-mail is invalid.-><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.gurukula.tests.RegistrationTest@1e88b3c</td></tr>
+<tr>
+<td title='com.gurukula.tests.RegistrationTest.M2_TS03_Registeration_ErrorMessageVerification()'><b>M2_TS03_Registeration_ErrorMessageVerification</b><br>Test class: com.gurukula.tests.RegistrationTest<br>Parameters: 5, user, a@a.com, , , Your e-mail is required.<br/>
+<a href="#Output-2115208183" onClick='toggleBox("Output-2115208183", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2115208183" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2115208183">
+Click Register a new account link -><br/>
+Verification of Email Error Message Your e-mail is required.-><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.gurukula.tests.RegistrationTest@1e88b3c</td></tr>
+<tr>
+<td title='com.gurukula.tests.RegistrationTest.M2_TS03_Registeration_ErrorMessageVerification()'><b>M2_TS03_Registeration_ErrorMessageVerification</b><br>Test class: com.gurukula.tests.RegistrationTest<br>Parameters: 6, user, a@a, , , Your e-mail is required to be at least 5 characters.<br/>
+<a href="#Output-2039034978" onClick='toggleBox("Output-2039034978", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2039034978" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2039034978">
+Click Register a new account link -><br/>
+Verification of Email Error Message Your e-mail is required to be at least 5 characters.-><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.gurukula.tests.RegistrationTest@1e88b3c</td></tr>
+<tr>
+<td title='com.gurukula.tests.RegistrationTest.M2_TS03_Registeration_ErrorMessageVerification()'><b>M2_TS03_Registeration_ErrorMessageVerification</b><br>Test class: com.gurukula.tests.RegistrationTest<br>Parameters: 8, user, a@abc.com, password, , Your password is required.<br/>
+<a href="#Output-1279870748" onClick='toggleBox("Output-1279870748", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1279870748" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1279870748">
+Click Register a new account link -><br/>
+Verification of Password Error Message Your password is required.-><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.gurukula.tests.RegistrationTest@1e88b3c</td></tr>
+<tr>
+<td title='com.gurukula.tests.RegistrationTest.M2_TS03_Registeration_ErrorMessageVerification()'><b>M2_TS03_Registeration_ErrorMessageVerification</b><br>Test class: com.gurukula.tests.RegistrationTest<br>Parameters: 9, user, a@abc.com, p, , Your password is required to be at least 5 characters.<br/>
+<a href="#Output-297645615" onClick='toggleBox("Output-297645615", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-297645615" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-297645615">
+Click Register a new account link -><br/>
+Verification of Password Error Message Your password is required to be at least 5 characters.-><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.gurukula.tests.RegistrationTest@1e88b3c</td></tr>
+<tr>
+<td title='com.gurukula.tests.RegistrationTest.M2_TS03_Registeration_ErrorMessageVerification()'><b>M2_TS03_Registeration_ErrorMessageVerification</b><br>Test class: com.gurukula.tests.RegistrationTest<br>Parameters: 10, user, a@abc.com, password1234567890password1234567890password1234567, , Your password cannot be longer than 50 characters.<br/>
+<a href="#Output-1827559894" onClick='toggleBox("Output-1827559894", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1827559894" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1827559894">
+Click Register a new account link -><br/>
+Verification of Password Error Message Your password cannot be longer than 50 characters.-><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.gurukula.tests.RegistrationTest@1e88b3c</td></tr>
+<tr>
+<td title='com.gurukula.tests.RegistrationTest.M2_TS03_Registeration_ErrorMessageVerification()'><b>M2_TS03_Registeration_ErrorMessageVerification</b><br>Test class: com.gurukula.tests.RegistrationTest<br>Parameters: 12, user, a@a, , 112345, Your confirmation password is required.<br/>
+<a href="#Output-240674693" onClick='toggleBox("Output-240674693", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-240674693" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-240674693">
+Click Register a new account link -><br/>
+Verification of Confirm Password Error Message Your confirmation password is required.-><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.gurukula.tests.RegistrationTest@1e88b3c</td></tr>
+<tr>
+<td title='com.gurukula.tests.RegistrationTest.M2_TS03_Registeration_ErrorMessageVerification()'><b>M2_TS03_Registeration_ErrorMessageVerification</b><br>Test class: com.gurukula.tests.RegistrationTest<br>Parameters: 13, user, a@a, , password1234567890password1234567890password1234567, Your confirmation password cannot be longer than 50 characters.<br/>
+<a href="#Output-245605942" onClick='toggleBox("Output-245605942", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-245605942" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-245605942">
+Click Register a new account link -><br/>
+Verification of Confirm Password Error Message Your confirmation password cannot be longer than 50 characters.-><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.gurukula.tests.RegistrationTest@1e88b3c</td></tr>
+<tr>
+<td title='com.gurukula.tests.RegistrationTest.M2_TS03_Registeration_ErrorMessageVerification()'><b>M2_TS03_Registeration_ErrorMessageVerification</b><br>Test class: com.gurukula.tests.RegistrationTest<br>Parameters: 14, user, a@a, , 12, Your confirmation password is required to be at least 5 characters.<br/>
+<a href="#Output-367911246" onClick='toggleBox("Output-367911246", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-367911246" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-367911246">
+Click Register a new account link -><br/>
+Verification of Confirm Password Error Message Your confirmation password is required to be at least 5 characters.-><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.gurukula.tests.RegistrationTest@1e88b3c</td></tr>
+<tr>
+<td title='com.gurukula.tests.RegistrationTest.M2_TS03_Registeration_ErrorMessageVerification()'><b>M2_TS03_Registeration_ErrorMessageVerification</b><br>Test class: com.gurukula.tests.RegistrationTest<br>Parameters: 16, user, a@a.com, 12345, 45678, The password and its confirmation do not match!<br/>
+<a href="#Output-933150624" onClick='toggleBox("Output-933150624", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-933150624" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-933150624">
+Click Register a new account link -><br/>
+Enter Login Name [user] -><br/>
+Enter Email [a@a.com] -><br/>
+Enter Password [12345] -><br/>
+Enter Confirm Password [45678] -><br/>
+Verification of Password Mismatch Error Message -><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.gurukula.tests.RegistrationTest@1e88b3c</td></tr>
+<tr>
+<td title='com.gurukula.tests.RegistrationTest.M2_TS04_VerifyRegistrationEnable()'><b>M2_TS04_VerifyRegistrationEnable</b><br>Test class: com.gurukula.tests.RegistrationTest</td>
+<td></td>
+<td>2</td>
+<td>com.gurukula.tests.RegistrationTest@1e88b3c</td></tr>
+<tr>
+<td title='com.gurukula.tests.AccountTest.M3_TS03_VerifyPasswordStrength_ChangePwdScreen()'><b>M3_TS03_VerifyPasswordStrength_ChangePwdScreen</b><br>Test class: com.gurukula.tests.AccountTest<br>Parameters: 1, Test@2018!!!!!, , Very Strong<br/>
+<a href="#Output-1282927444" onClick='toggleBox("Output-1282927444", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1282927444" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1282927444">
+Click Passwords sub-menu -><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.gurukula.tests.AccountTest@42d80b78</td></tr>
+<tr>
+<td title='com.gurukula.tests.AccountTest.M3_TS03_VerifyPasswordStrength_ChangePwdScreen()'><b>M3_TS03_VerifyPasswordStrength_ChangePwdScreen</b><br>Test class: com.gurukula.tests.AccountTest<br>Parameters: 2, Test@2018, , Strong<br/>
+<a href="#Output-55629191" onClick='toggleBox("Output-55629191", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-55629191" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-55629191">
+Click Passwords sub-menu -><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.gurukula.tests.AccountTest@42d80b78</td></tr>
+<tr>
+<td title='com.gurukula.tests.AccountTest.M3_TS03_VerifyPasswordStrength_ChangePwdScreen()'><b>M3_TS03_VerifyPasswordStrength_ChangePwdScreen</b><br>Test class: com.gurukula.tests.AccountTest<br>Parameters: 3, 12345, , Very Weak<br/>
+<a href="#Output-1749285277" onClick='toggleBox("Output-1749285277", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1749285277" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1749285277">
+Click Passwords sub-menu -><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.gurukula.tests.AccountTest@42d80b78</td></tr>
+<tr>
+<td title='com.gurukula.tests.AccountTest.M3_TS03_VerifyPasswordStrength_ChangePwdScreen()'><b>M3_TS03_VerifyPasswordStrength_ChangePwdScreen</b><br>Test class: com.gurukula.tests.AccountTest<br>Parameters: 4, 12345abcde, , Weak<br/>
+<a href="#Output-1583695294" onClick='toggleBox("Output-1583695294", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1583695294" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1583695294">
+Click Passwords sub-menu -><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.gurukula.tests.AccountTest@42d80b78</td></tr>
+<tr>
+<td title='com.gurukula.tests.AccountTest.M3_TS03_VerifyPasswordStrength_ChangePwdScreen()'><b>M3_TS03_VerifyPasswordStrength_ChangePwdScreen</b><br>Test class: com.gurukula.tests.AccountTest<br>Parameters: 5, password, , Your password is required.<br/>
+<a href="#Output-1311330917" onClick='toggleBox("Output-1311330917", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1311330917" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1311330917">
+Click Passwords sub-menu -><br/>
+Verification of Password Error Message Your password is required.-><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.gurukula.tests.AccountTest@42d80b78</td></tr>
+<tr>
+<td title='com.gurukula.tests.AccountTest.M3_TS03_VerifyPasswordStrength_ChangePwdScreen()'><b>M3_TS03_VerifyPasswordStrength_ChangePwdScreen</b><br>Test class: com.gurukula.tests.AccountTest<br>Parameters: 6, p, , Your password is required to be at least 5 characters.<br/>
+<a href="#Output-1831016172" onClick='toggleBox("Output-1831016172", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1831016172" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1831016172">
+Click Passwords sub-menu -><br/>
+Verification of Password Error Message Your password is required to be at least 5 characters.-><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.gurukula.tests.AccountTest@42d80b78</td></tr>
+<tr>
+<td title='com.gurukula.tests.AccountTest.M3_TS03_VerifyPasswordStrength_ChangePwdScreen()'><b>M3_TS03_VerifyPasswordStrength_ChangePwdScreen</b><br>Test class: com.gurukula.tests.AccountTest<br>Parameters: 7, password1234567890password1234567890password1234567, , Your password cannot be longer than 50 characters.<br/>
+<a href="#Output-1785582550" onClick='toggleBox("Output-1785582550", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1785582550" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1785582550">
+Click Passwords sub-menu -><br/>
+Verification of Password Error Message Your password cannot be longer than 50 characters.-><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.gurukula.tests.AccountTest@42d80b78</td></tr>
+<tr>
+<td title='com.gurukula.tests.AccountTest.M3_TS03_VerifyPasswordStrength_ChangePwdScreen()'><b>M3_TS03_VerifyPasswordStrength_ChangePwdScreen</b><br>Test class: com.gurukula.tests.AccountTest<br>Parameters: 9, , 112345, Your confirmation password is required.<br/>
+<a href="#Output-1883078542" onClick='toggleBox("Output-1883078542", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1883078542" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1883078542">
+Click Passwords sub-menu -><br/>
+Verification of Confirm Password Error Message Your confirmation password is required.-><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.gurukula.tests.AccountTest@42d80b78</td></tr>
+<tr>
+<td title='com.gurukula.tests.AccountTest.M3_TS03_VerifyPasswordStrength_ChangePwdScreen()'><b>M3_TS03_VerifyPasswordStrength_ChangePwdScreen</b><br>Test class: com.gurukula.tests.AccountTest<br>Parameters: 10, , password1234567890password1234567890password1234567, Your confirmation password cannot be longer than 50 characters.<br/>
+<a href="#Output-1526927445" onClick='toggleBox("Output-1526927445", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1526927445" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1526927445">
+Click Passwords sub-menu -><br/>
+Verification of Confirm Password Error Message Your confirmation password cannot be longer than 50 characters.-><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.gurukula.tests.AccountTest@42d80b78</td></tr>
+<tr>
+<td title='com.gurukula.tests.AccountTest.M3_TS03_VerifyPasswordStrength_ChangePwdScreen()'><b>M3_TS03_VerifyPasswordStrength_ChangePwdScreen</b><br>Test class: com.gurukula.tests.AccountTest<br>Parameters: 11, , 12, Your confirmation password is required to be at least 5 characters.<br/>
+<a href="#Output-1122089151" onClick='toggleBox("Output-1122089151", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1122089151" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1122089151">
+Click Passwords sub-menu -><br/>
+Verification of Confirm Password Error Message Your confirmation password is required to be at least 5 characters.-><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.gurukula.tests.AccountTest@42d80b78</td></tr>
+<tr>
+<td title='com.gurukula.tests.AccountTest.M3_TS04_VerifySettings_EmailFieldErrors()'><b>M3_TS04_VerifySettings_EmailFieldErrors</b><br>Test class: com.gurukula.tests.AccountTest<br>Parameters: 1, email, Your e-mail is invalid.<br/>
+<a href="#Output-1469325187" onClick='toggleBox("Output-1469325187", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1469325187" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1469325187">
+Click Settings sub-menu -><br/>
+Verification of Email Error Message Your e-mail is invalid.-><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.gurukula.tests.AccountTest@42d80b78</td></tr>
+<tr>
+<td title='com.gurukula.tests.AccountTest.M3_TS04_VerifySettings_EmailFieldErrors()'><b>M3_TS04_VerifySettings_EmailFieldErrors</b><br>Test class: com.gurukula.tests.AccountTest<br>Parameters: 2, a@a.com, Your e-mail is required.<br/>
+<a href="#Output-1256520423" onClick='toggleBox("Output-1256520423", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1256520423" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1256520423">
+Click Settings sub-menu -><br/>
+Verification of Email Error Message Your e-mail is required.-><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.gurukula.tests.AccountTest@42d80b78</td></tr>
+<tr>
+<td title='com.gurukula.tests.AccountTest.M3_TS04_VerifySettings_EmailFieldErrors()'><b>M3_TS04_VerifySettings_EmailFieldErrors</b><br>Test class: com.gurukula.tests.AccountTest<br>Parameters: 3, a@a, Your e-mail is required to be at least 5 characters.<br/>
+<a href="#Output-1718806524" onClick='toggleBox("Output-1718806524", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1718806524" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1718806524">
+Click Settings sub-menu -><br/>
+Verification of Email Error Message Your e-mail is required to be at least 5 characters.-><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.gurukula.tests.AccountTest@42d80b78</td></tr>
+<tr>
+<td title='com.gurukula.tests.BranchTest.M4_TS01_Create_newBranch()'><b>M4_TS01_Create_newBranch</b><br>Test class: com.gurukula.tests.BranchTest<br>Parameters: Computers, ITC01<br/>
+<a href="#Output-1580399810" onClick='toggleBox("Output-1580399810", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1580399810" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1580399810">
+Verification of Newly created Branch Name<br/>
+Verification of Newly created Branch Code<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.gurukula.tests.BranchTest@3bfdc050</td></tr>
+<tr>
+<td title='com.gurukula.tests.BranchTest.M4_TS01_Create_newBranch()'><b>M4_TS01_Create_newBranch</b><br>Test class: com.gurukula.tests.BranchTest<br>Parameters: Computer Networks, CN01<br/>
+<a href="#Output-325926682" onClick='toggleBox("Output-325926682", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-325926682" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-325926682">
+Verification of Newly created Branch Name<br/>
+Verification of Newly created Branch Code<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.gurukula.tests.BranchTest@3bfdc050</td></tr>
+<tr>
+<td title='com.gurukula.tests.BranchTest.M4_TS01_Create_newBranch()'><b>M4_TS01_Create_newBranch</b><br>Test class: com.gurukula.tests.BranchTest<br>Parameters: C Programming, CP01<br/>
+<a href="#Output-608662279" onClick='toggleBox("Output-608662279", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-608662279" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-608662279">
+Verification of Newly created Branch Name<br/>
+Verification of Newly created Branch Code<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.gurukula.tests.BranchTest@3bfdc050</td></tr>
+<tr>
+<td title='com.gurukula.tests.BranchTest.M4_TS01_Create_newBranch()'><b>M4_TS01_Create_newBranch</b><br>Test class: com.gurukula.tests.BranchTest<br>Parameters: Python Programming, CP02<br/>
+<a href="#Output-737102339" onClick='toggleBox("Output-737102339", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-737102339" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-737102339">
+Verification of Newly created Branch Name<br/>
+Verification of Newly created Branch Code<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.gurukula.tests.BranchTest@3bfdc050</td></tr>
+<tr>
+<td title='com.gurukula.tests.BranchTest.M4_TS01_Create_newBranch()'><b>M4_TS01_Create_newBranch</b><br>Test class: com.gurukula.tests.BranchTest<br>Parameters: Java Programming, CP03<br/>
+<a href="#Output-521348970" onClick='toggleBox("Output-521348970", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-521348970" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-521348970">
+Verification of Newly created Branch Name<br/>
+Verification of Newly created Branch Code<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.gurukula.tests.BranchTest@3bfdc050</td></tr>
+<tr>
+<td title='com.gurukula.tests.BranchTest.M4_TS02_Verify_BranchCreationError_Message_Handling()'><b>M4_TS02_Verify_BranchCreationError_Message_Handling</b><br>Test class: com.gurukula.tests.BranchTest<br>Parameters: 1, , , This field is required.<br/>
+<a href="#Output-1599127439" onClick='toggleBox("Output-1599127439", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1599127439" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1599127439">
+Verification of Branch Name Error Message This field is required.-><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.gurukula.tests.BranchTest@3bfdc050</td></tr>
+<tr>
+<td title='com.gurukula.tests.BranchTest.M4_TS02_Verify_BranchCreationError_Message_Handling()'><b>M4_TS02_Verify_BranchCreationError_Message_Handling</b><br>Test class: com.gurukula.tests.BranchTest<br>Parameters: 2, Com, ITC01, This field is required to be at least 5 characters.<br/>
+<a href="#Output-1170853619" onClick='toggleBox("Output-1170853619", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1170853619" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1170853619">
+Verification of Branch Name Error Message This field is required to be at least 5 characters.-><br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.gurukula.tests.BranchTest@3bfdc050</td></tr>
+<tr>
+<td title='com.gurukula.tests.BranchTest.M4_TS02_Verify_BranchCreationError_Message_Handling()'><b>M4_TS02_Verify_BranchCreationError_Message_Handling</b><br>Test class: com.gurukula.tests.BranchTest<br>Parameters: 3, BRANCHNAME BRANCHNAME, ITC01, This field cannot be longer than 20 characters.<br/>
+<a href="#Output-798372225" onClick='toggleBox("Output-798372225", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-798372225" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-798372225">
+Verification of Branch Name Error Message This field cannot be longer than 20 characters.-><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.gurukula.tests.BranchTest@3bfdc050</td></tr>
+<tr>
+<td title='com.gurukula.tests.BranchTest.M4_TS02_Verify_BranchCreationError_Message_Handling()'><b>M4_TS02_Verify_BranchCreationError_Message_Handling</b><br>Test class: com.gurukula.tests.BranchTest<br>Parameters: 4, Branch124, ITC01, This field should follow pattern ^[a-zA-Z\s]*$.<br/>
+<a href="#Output-581202262" onClick='toggleBox("Output-581202262", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-581202262" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-581202262">
+Verification of Branch Name Error Message This field should follow pattern ^[a-zA-Z\s]*$.-><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.gurukula.tests.BranchTest@3bfdc050</td></tr>
+<tr>
+<td title='com.gurukula.tests.BranchTest.M4_TS02_Verify_BranchCreationError_Message_Handling()'><b>M4_TS02_Verify_BranchCreationError_Message_Handling</b><br>Test class: com.gurukula.tests.BranchTest<br>Parameters: 5, , , This field is required.<br/>
+<a href="#Output-738480366" onClick='toggleBox("Output-738480366", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-738480366" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-738480366">
+Verification of Branch Code Error Message This field is required.-><br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.gurukula.tests.BranchTest@3bfdc050</td></tr>
+<tr>
+<td title='com.gurukula.tests.BranchTest.M4_TS02_Verify_BranchCreationError_Message_Handling()'><b>M4_TS02_Verify_BranchCreationError_Message_Handling</b><br>Test class: com.gurukula.tests.BranchTest<br>Parameters: 6, BRANCHNAME, I, This field is required to be at least 2 characters.<br/>
+<a href="#Output-301160596" onClick='toggleBox("Output-301160596", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-301160596" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-301160596">
+Verification of Branch Code Error Message This field is required to be at least 2 characters.-><br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.gurukula.tests.BranchTest@3bfdc050</td></tr>
+<tr>
+<td title='com.gurukula.tests.BranchTest.M4_TS02_Verify_BranchCreationError_Message_Handling()'><b>M4_TS02_Verify_BranchCreationError_Message_Handling</b><br>Test class: com.gurukula.tests.BranchTest<br>Parameters: 7, BRANCHNAME, ITC01234567, This field cannot be longer than 10 characters.<br/>
+<a href="#Output-377249112" onClick='toggleBox("Output-377249112", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-377249112" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-377249112">
+Verification of Branch Code Error Message This field cannot be longer than 10 characters.-><br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.gurukula.tests.BranchTest@3bfdc050</td></tr>
+<tr>
+<td title='com.gurukula.tests.BranchTest.M4_TS02_Verify_BranchCreationError_Message_Handling()'><b>M4_TS02_Verify_BranchCreationError_Message_Handling</b><br>Test class: com.gurukula.tests.BranchTest<br>Parameters: 8, BRANCHNAME, abcd01, This field should follow pattern ^[A-Z0-9]*$.<br/>
+<a href="#Output-1642736008" onClick='toggleBox("Output-1642736008", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1642736008" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1642736008">
+Verification of Branch Code Error Message This field should follow pattern ^[A-Z0-9]*$.-><br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.gurukula.tests.BranchTest@3bfdc050</td></tr>
+<tr>
+<td title='com.gurukula.tests.BranchTest.M4_TS03_Verify_BranchEdit()'><b>M4_TS03_Verify_BranchEdit</b><br>Test class: com.gurukula.tests.BranchTest<br/>
+<a href="#Output-1938872504" onClick='toggleBox("Output-1938872504", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1938872504" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1938872504">
+Verification of Newly created Branch Name<br/>
+Verification of Newly created Branch Code<br/>
+Verification of recently Edited Branch Name<br/>
+Verification of Newly Edited Branch Code<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.gurukula.tests.BranchTest@3bfdc050</td></tr>
+<tr>
+<td title='com.gurukula.tests.BranchTest.M4_TS04_Verify_BranchDelete()'><b>M4_TS04_Verify_BranchDelete</b><br>Test class: com.gurukula.tests.BranchTest<br/>
+<a href="#Output-544018281" onClick='toggleBox("Output-544018281", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-544018281" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-544018281">
+Verification of Newly created Branch Name<br/>
+Verification of Newly created Branch Code<br/>
+Verification of recently deleted Branch Name<br/>
+Verification of Newly deleted Branch Code<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.gurukula.tests.BranchTest@3bfdc050</td></tr>
+<tr>
+<td title='com.gurukula.tests.BranchTest.M4_TS05_Verify_BranchView()'><b>M4_TS05_Verify_BranchView</b><br>Test class: com.gurukula.tests.BranchTest<br/>
+<a href="#Output-2001302350" onClick='toggleBox("Output-2001302350", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2001302350" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2001302350">
+Verification of Newly created Branch Name<br/>
+Verification of Newly created Branch Code<br/>
+Verification of recently created Branch Name<br/>
+Verification of Newly created Branch Code<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.gurukula.tests.BranchTest@3bfdc050</td></tr>
+<tr>
+<td title='com.gurukula.tests.StaffTest.M5_TS01_Create_new_staff()'><b>M5_TS01_Create_new_staff</b><br>Test class: com.gurukula.tests.StaffTest<br>Parameters: Mr Adam Smith, Computers<br/>
+<a href="#Output-197472105" onClick='toggleBox("Output-197472105", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-197472105" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-197472105">
+Verification of Newly created Staff Name<br/>
+Verification of Newly created Branch Names<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.gurukula.tests.StaffTest@1bce4f0a</td></tr>
+<tr>
+<td title='com.gurukula.tests.StaffTest.M5_TS01_Create_new_staff()'><b>M5_TS01_Create_new_staff</b><br>Test class: com.gurukula.tests.StaffTest<br>Parameters: Mrs Elizabeth Sen, Computer Networks<br/>
+<a href="#Output-1229942712" onClick='toggleBox("Output-1229942712", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1229942712" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1229942712">
+Verification of Newly created Staff Name<br/>
+Verification of Newly created Branch Names<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.gurukula.tests.StaffTest@1bce4f0a</td></tr>
+<tr>
+<td title='com.gurukula.tests.StaffTest.M5_TS01_Create_new_staff()'><b>M5_TS01_Create_new_staff</b><br>Test class: com.gurukula.tests.StaffTest<br>Parameters: Dr Peter Kokes, Python Programming<br/>
+<a href="#Output-484383715" onClick='toggleBox("Output-484383715", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-484383715" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-484383715">
+Verification of Newly created Staff Name<br/>
+Verification of Newly created Branch Names<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.gurukula.tests.StaffTest@1bce4f0a</td></tr>
+<tr>
+<td title='com.gurukula.tests.StaffTest.M5_TS01_Create_new_staff()'><b>M5_TS01_Create_new_staff</b><br>Test class: com.gurukula.tests.StaffTest<br>Parameters: Prof Stefan Ring, Computer Networks<br/>
+<a href="#Output-1416061139" onClick='toggleBox("Output-1416061139", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1416061139" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1416061139">
+Verification of Newly created Staff Name<br/>
+Verification of Newly created Branch Names<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.gurukula.tests.StaffTest@1bce4f0a</td></tr>
+<tr>
+<td title='com.gurukula.tests.StaffTest.M5_TS01_Create_new_staff()'><b>M5_TS01_Create_new_staff</b><br>Test class: com.gurukula.tests.StaffTest<br>Parameters: Mr Richard Stamm, Java Programming<br/>
+<a href="#Output-63516025" onClick='toggleBox("Output-63516025", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-63516025" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-63516025">
+Verification of Newly created Staff Name<br/>
+Verification of Newly created Branch Names<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.gurukula.tests.StaffTest@1bce4f0a</td></tr>
+<tr>
+<td title='com.gurukula.tests.StaffTest.M5_TS01_Create_new_staff()'><b>M5_TS01_Create_new_staff</b><br>Test class: com.gurukula.tests.StaffTest<br>Parameters: Mr Empty, <br/>
+<a href="#Output-1616214588" onClick='toggleBox("Output-1616214588", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1616214588" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1616214588">
+Verification of Newly created Staff Name<br/>
+Verification of Newly created Branch Names<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.gurukula.tests.StaffTest@1bce4f0a</td></tr>
+<tr>
+<td title='com.gurukula.tests.StaffTest.M5_TS02_Verify_StaffCreationError_Message_Handling()'><b>M5_TS02_Verify_StaffCreationError_Message_Handling</b><br>Test class: com.gurukula.tests.StaffTest<br>Parameters: 1, name, This field is required.<br/>
+<a href="#Output-138283008" onClick='toggleBox("Output-138283008", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-138283008" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-138283008">
+Verification of Branch Name Error Message This field is required.-><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.gurukula.tests.StaffTest@1bce4f0a</td></tr>
+<tr>
+<td title='com.gurukula.tests.StaffTest.M5_TS02_Verify_StaffCreationError_Message_Handling()'><b>M5_TS02_Verify_StaffCreationError_Message_Handling</b><br>Test class: com.gurukula.tests.StaffTest<br>Parameters: 2, ProfessorName ProfessorName ProfessorName Professor, This field cannot be longer than 50 characters.<br/>
+<a href="#Output-663820085" onClick='toggleBox("Output-663820085", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-663820085" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-663820085">
+Verification of Branch Name Error Message This field cannot be longer than 50 characters.-><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.gurukula.tests.StaffTest@1bce4f0a</td></tr>
+<tr>
+<td title='com.gurukula.tests.StaffTest.M5_TS02_Verify_StaffCreationError_Message_Handling()'><b>M5_TS02_Verify_StaffCreationError_Message_Handling</b><br>Test class: com.gurukula.tests.StaffTest<br>Parameters: 3, Prof Adam1235, This field should follow pattern ^[a-zA-Z\s]*$.<br/>
+<a href="#Output-1791568899" onClick='toggleBox("Output-1791568899", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1791568899" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1791568899">
+Verification of Branch Name Error Message This field should follow pattern ^[a-zA-Z\s]*$.-><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.gurukula.tests.StaffTest@1bce4f0a</td></tr>
+<tr>
+<td title='com.gurukula.tests.StaffTest.M5_TS03_Verify_StaffEdit()'><b>M5_TS03_Verify_StaffEdit</b><br>Test class: com.gurukula.tests.StaffTest<br/>
+<a href="#Output-157627543" onClick='toggleBox("Output-157627543", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-157627543" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-157627543">
+Verification of Newly created Staff Name<br/>
+Verification of Newly created Branch Names<br/>
+Verification of recently Edited Staff Name<br/>
+Verification of Newly Edited Branch Code<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.gurukula.tests.StaffTest@1bce4f0a</td></tr>
+<tr>
+<td title='com.gurukula.tests.StaffTest.M5_TS04_Verify_StaffDelete()'><b>M5_TS04_Verify_StaffDelete</b><br>Test class: com.gurukula.tests.StaffTest<br/>
+<a href="#Output-1671731969" onClick='toggleBox("Output-1671731969", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1671731969" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1671731969">
+Verification of Newly created Staff Name<br/>
+Verification of Newly created Branch Names<br/>
+Verification of recently deleted Staff Name<br/>
+Verification of recently deleted Branch Code<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.gurukula.tests.StaffTest@1bce4f0a</td></tr>
+<tr>
+<td title='com.gurukula.tests.StaffTest.M5_TS05_Verify_StaffView()'><b>M5_TS05_Verify_StaffView</b><br>Test class: com.gurukula.tests.StaffTest<br/>
+<a href="#Output-1527359034" onClick='toggleBox("Output-1527359034", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1527359034" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1527359034">
+Verification of Newly created Staff Name<br/>
+Verification of Newly created Branch Names<br/>
+Verification of recently created Staff Name<br/>
+Verification of Newly created Branch Name<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.gurukula.tests.StaffTest@1bce4f0a</td></tr>
+</table><p>
+</body>
+</html>

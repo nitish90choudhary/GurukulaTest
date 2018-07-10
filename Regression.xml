@@ -2,8 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Gurukula Regression Automation Suite">
 
-	<test thread-count="5" name="Full Regression Test" enabled="true"
-		parallel="true" preserve-order="true">
+	<test thread-count="5" name="Full Regression Test">
 		<classes>
 			<class name="com.gurukula.tests.LoginTest" />
 			<class name="com.gurukula.tests.RegistrationTest" />

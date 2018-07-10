@@ -85,8 +85,9 @@ public class SettingsPage extends BasicPage {
 	public String getEmailErrorMessage() {
 		String msg = "";
 		for (WebElement element : lblEmailError) {
-			if (element.getAttribute("class").equals("help-block ng-scope")) {
 
+			if (element.getAttribute("class").equals("help-block ng-scope")) {
+				this.waitForElementVisibility(element);
 				msg = element.getText();
 				// System.out.println("Displayed and text: " + msg);
 			}

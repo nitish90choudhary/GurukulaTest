@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Gurukula Regression Automation Suite]">
+  <test thread-count="5" name="Full Regression Test(failed)">
+    <classes>
+      <class name="com.gurukula.tests.AccountTest">
+        <methods>
+          <include name="M3_TS03_VerifyPasswordStrength_ChangePwdScreen" invocation-numbers="7 11 12"/>
+          <include name="M3_TS05_Verify_Invalidate_Session"/>
+          <include name="M3_TS02_Verify_Change_user_password"/>
+          <include name="M3_TS04_VerifySettings_EmailFieldErrors" invocation-numbers="3"/>
+          <include name="M3_TS01_Verify_user_settings_change"/>
+          <include name="goToHomePage"/>
+          <include name="finishTest"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- com.gurukula.tests.AccountTest -->
+      <class name="com.gurukula.tests.LoginTest">
+        <methods>
+          <include name="M1_TS04_Verify_Reset_your_password" invocation-numbers="3 5"/>
+          <include name="finishTest"/>
+          <include name="goToHomePage"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- com.gurukula.tests.LoginTest -->
+      <class name="com.gurukula.tests.RegistrationTest">
+        <methods>
+          <include name="finishTest"/>
+          <include name="goToHomePage"/>
+          <include name="M2_TS01_Verify_NewUser_Registration" invocation-numbers="0"/>
+          <include name="M2_TS03_Registeration_ErrorMessageVerification" invocation-numbers="6 10 14"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- com.gurukula.tests.RegistrationTest -->
+    </classes>
+  </test> <!-- Full Regression Test(failed) -->
+</suite> <!-- Failed suite [Gurukula Regression Automation Suite] -->

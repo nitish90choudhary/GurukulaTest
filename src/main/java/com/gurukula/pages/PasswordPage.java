@@ -78,6 +78,7 @@ public class PasswordPage extends BasicPage {
 	}
 
 	public String getChangePwdError() {
+		this.waitForElementVisibility(lblPasswordErrorMsg);
 		return lblPasswordErrorMsg.getText();
 	}
 
@@ -119,6 +120,7 @@ public class PasswordPage extends BasicPage {
 
 	public String getPasswordMismatchError() {
 		Reporter.log("Verification of Password Mismatch Error Message ->");
+		this.waitForElementVisibility(lblPasswordMismatchError);
 		return lblPasswordMismatchError.getText();
 	}
 

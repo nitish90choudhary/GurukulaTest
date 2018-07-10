@@ -175,6 +175,7 @@ public class RegistrationTest {
 
 	@AfterTest
 	public void finishTest() {
+
 		gbl.cleanup();
 	}
 

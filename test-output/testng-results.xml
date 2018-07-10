@@ -1,0 +1,3815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="13" ignored="0" total="82" passed="69">
+  <reporter-output>
+    <line>
+      <![CDATA[TC01_Verify Application is running]]>
+    </line>
+    <line>
+      <![CDATA[Step 1 : Click Login Button]]>
+    </line>
+    <line>
+      <![CDATA[Step 2 : Enter Username <admin>]]>
+    </line>
+    <line>
+      <![CDATA[Step 3 : Enter Password <admin>]]>
+    </line>
+    <line>
+      <![CDATA[Step 4 : Click Authenticate Button]]>
+    </line>
+    <line>
+      <![CDATA[Step 5 : Verify Login should be sucessful
+]]>
+    </line>
+    <line>
+      <![CDATA[Step 6 : Logout user]]>
+    </line>
+    <line>
+      <![CDATA[TC04_Verify Reset your password functionality]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Confirm Password Error Message Your e-mail is invalid.->]]>
+    </line>
+    <line>
+      <![CDATA[TC04_Verify Reset your password functionality]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Confirm Password Error Message Your e-mail is required.->]]>
+    </line>
+    <line>
+      <![CDATA[TC04_Verify Reset your password functionality]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Confirm Password Error Message Your e-mail is required to be at least 5 characters.->]]>
+    </line>
+    <line>
+      <![CDATA[TC04_Verify Reset your password functionality]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Confirm Password Error Message ->]]>
+    </line>
+    <line>
+      <![CDATA[TC04_Verify Reset your password functionality]]>
+    </line>
+    <line>
+      <![CDATA[TC04_Verify Reset your password functionality]]>
+    </line>
+    <line>
+      <![CDATA[Click Register a new account link ->]]>
+    </line>
+    <line>
+      <![CDATA[Enter Login Name [nitish] ->]]>
+    </line>
+    <line>
+      <![CDATA[Enter Email [nitish@opentrash.com] ->]]>
+    </line>
+    <line>
+      <![CDATA[Enter Password [Test@2018!!!!!] ->]]>
+    </line>
+    <line>
+      <![CDATA[Enter Confirm Password [Test@2018!!!!!] ->]]>
+    </line>
+    <line>
+      <![CDATA[Click Register Button ->]]>
+    </line>
+    <line>
+      <![CDATA[Verify Success Message]]>
+    </line>
+    <line>
+      <![CDATA[Click Register a new account link ->]]>
+    </line>
+    <line>
+      <![CDATA[Enter Login Name [nitish] ->]]>
+    </line>
+    <line>
+      <![CDATA[Enter Email [nitish@opentrash.com] ->]]>
+    </line>
+    <line>
+      <![CDATA[Enter Password [Test@2018!!!!!] ->]]>
+    </line>
+    <line>
+      <![CDATA[Enter Confirm Password [] ->]]>
+    </line>
+    <line>
+      <![CDATA[Click Register a new account link ->]]>
+    </line>
+    <line>
+      <![CDATA[Enter Login Name [nitish] ->]]>
+    </line>
+    <line>
+      <![CDATA[Enter Email [nitish@opentrash.com] ->]]>
+    </line>
+    <line>
+      <![CDATA[Enter Password [Test@2018] ->]]>
+    </line>
+    <line>
+      <![CDATA[Enter Confirm Password [] ->]]>
+    </line>
+    <line>
+      <![CDATA[Click Register a new account link ->]]>
+    </line>
+    <line>
+      <![CDATA[Enter Login Name [nitish] ->]]>
+    </line>
+    <line>
+      <![CDATA[Enter Email [nitish@opentrash.com] ->]]>
+    </line>
+    <line>
+      <![CDATA[Enter Password [12345] ->]]>
+    </line>
+    <line>
+      <![CDATA[Enter Confirm Password [] ->]]>
+    </line>
+    <line>
+      <![CDATA[Click Register a new account link ->]]>
+    </line>
+    <line>
+      <![CDATA[Enter Login Name [nitish] ->]]>
+    </line>
+    <line>
+      <![CDATA[Enter Email [nitish@opentrash.com] ->]]>
+    </line>
+    <line>
+      <![CDATA[Enter Password [12345abcde] ->]]>
+    </line>
+    <line>
+      <![CDATA[Enter Confirm Password [] ->]]>
+    </line>
+    <line>
+      <![CDATA[Click Register a new account link ->]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Login Error Message Your login is required.->]]>
+    </line>
+    <line>
+      <![CDATA[Click Register a new account link ->]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Login Error Message Your login can only contain lower-case letters and digits.->]]>
+    </line>
+    <line>
+      <![CDATA[Click Register a new account link ->]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Login Error Message Your login cannot be longer than 50 characters.->]]>
+    </line>
+    <line>
+      <![CDATA[Click Register a new account link ->]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Email Error Message Your e-mail is invalid.->]]>
+    </line>
+    <line>
+      <![CDATA[Click Register a new account link ->]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Email Error Message Your e-mail is required.->]]>
+    </line>
+    <line>
+      <![CDATA[Click Register a new account link ->]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Email Error Message Your e-mail is required to be at least 5 characters.->]]>
+    </line>
+    <line>
+      <![CDATA[Click Register a new account link ->]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Email Error Message ->]]>
+    </line>
+    <line>
+      <![CDATA[Click Register a new account link ->]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Password Error Message Your password is required.->]]>
+    </line>
+    <line>
+      <![CDATA[Click Register a new account link ->]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Password Error Message Your password is required to be at least 5 characters.->]]>
+    </line>
+    <line>
+      <![CDATA[Click Register a new account link ->]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Password Error Message Your password cannot be longer than 50 characters.->]]>
+    </line>
+    <line>
+      <![CDATA[Click Register a new account link ->]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Password Error Message ->]]>
+    </line>
+    <line>
+      <![CDATA[Click Register a new account link ->]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Confirm Password Error Message Your confirmation password is required.->]]>
+    </line>
+    <line>
+      <![CDATA[Click Register a new account link ->]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Confirm Password Error Message Your confirmation password cannot be longer than 50 characters.->]]>
+    </line>
+    <line>
+      <![CDATA[Click Register a new account link ->]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Confirm Password Error Message Your confirmation password is required to be at least 5 characters.->]]>
+    </line>
+    <line>
+      <![CDATA[Click Register a new account link ->]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Confirm Password Error Message ->]]>
+    </line>
+    <line>
+      <![CDATA[Click Register a new account link ->]]>
+    </line>
+    <line>
+      <![CDATA[Enter Login Name [user] ->]]>
+    </line>
+    <line>
+      <![CDATA[Enter Email [a@a.com] ->]]>
+    </line>
+    <line>
+      <![CDATA[Enter Password [12345] ->]]>
+    </line>
+    <line>
+      <![CDATA[Enter Confirm Password [45678] ->]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Password Mismatch Error Message ->]]>
+    </line>
+    <line>
+      <![CDATA[Click Passwords sub-menu ->]]>
+    </line>
+    <line>
+      <![CDATA[Click Passwords sub-menu ->]]>
+    </line>
+    <line>
+      <![CDATA[Click Passwords sub-menu ->]]>
+    </line>
+    <line>
+      <![CDATA[Click Passwords sub-menu ->]]>
+    </line>
+    <line>
+      <![CDATA[Click Passwords sub-menu ->]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Password Error Message Your password is required.->]]>
+    </line>
+    <line>
+      <![CDATA[Click Passwords sub-menu ->]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Password Error Message Your password is required to be at least 5 characters.->]]>
+    </line>
+    <line>
+      <![CDATA[Click Passwords sub-menu ->]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Password Error Message Your password cannot be longer than 50 characters.->]]>
+    </line>
+    <line>
+      <![CDATA[Click Passwords sub-menu ->]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Password Error Message ->]]>
+    </line>
+    <line>
+      <![CDATA[Click Passwords sub-menu ->]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Confirm Password Error Message Your confirmation password is required.->]]>
+    </line>
+    <line>
+      <![CDATA[Click Passwords sub-menu ->]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Confirm Password Error Message Your confirmation password cannot be longer than 50 characters.->]]>
+    </line>
+    <line>
+      <![CDATA[Click Passwords sub-menu ->]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Confirm Password Error Message Your confirmation password is required to be at least 5 characters.->]]>
+    </line>
+    <line>
+      <![CDATA[Click Passwords sub-menu ->]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Confirm Password Error Message ->]]>
+    </line>
+    <line>
+      <![CDATA[Click Passwords sub-menu ->]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Password Mismatch Error Message ->]]>
+    </line>
+    <line>
+      <![CDATA[Click Settings sub-menu ->]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Email Error Message Your e-mail is invalid.->]]>
+    </line>
+    <line>
+      <![CDATA[Click Settings sub-menu ->]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Email Error Message Your e-mail is required.->]]>
+    </line>
+    <line>
+      <![CDATA[Click Settings sub-menu ->]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Email Error Message Your e-mail is required to be at least 5 characters.->]]>
+    </line>
+    <line>
+      <![CDATA[Click Settings sub-menu ->]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Email Error Message ->]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Newly created Branch Name]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Newly created Branch Code]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Newly created Branch Name]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Newly created Branch Code]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Newly created Branch Name]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Newly created Branch Code]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Newly created Branch Name]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Newly created Branch Code]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Newly created Branch Name]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Newly created Branch Code]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Branch Name Error Message This field is required.->]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Branch Name Error Message This field is required to be at least 5 characters.->]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Branch Name Error Message This field cannot be longer than 20 characters.->]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Branch Name Error Message This field should follow pattern ^[a-zA-Z\s]*$.->]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Branch Code Error Message This field is required.->]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Branch Code Error Message This field is required to be at least 2 characters.->]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Branch Code Error Message This field cannot be longer than 10 characters.->]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Branch Code Error Message This field should follow pattern ^[A-Z0-9]*$.->]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Newly created Branch Name]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Newly created Branch Code]]>
+    </line>
+    <line>
+      <![CDATA[Verification of recently Edited Branch Name]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Newly Edited Branch Code]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Newly created Branch Name]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Newly created Branch Code]]>
+    </line>
+    <line>
+      <![CDATA[Verification of recently deleted Branch Name]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Newly deleted Branch Code]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Newly created Branch Name]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Newly created Branch Code]]>
+    </line>
+    <line>
+      <![CDATA[Verification of recently created Branch Name]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Newly created Branch Code]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Newly created Staff Name]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Newly created Branch Names]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Newly created Staff Name]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Newly created Branch Names]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Newly created Staff Name]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Newly created Branch Names]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Newly created Staff Name]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Newly created Branch Names]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Newly created Staff Name]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Newly created Branch Names]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Newly created Staff Name]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Newly created Branch Names]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Branch Name Error Message This field is required.->]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Branch Name Error Message This field cannot be longer than 50 characters.->]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Branch Name Error Message This field should follow pattern ^[a-zA-Z\s]*$.->]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Newly created Staff Name]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Newly created Branch Names]]>
+    </line>
+    <line>
+      <![CDATA[Verification of recently Edited Staff Name]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Newly Edited Branch Code]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Newly created Staff Name]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Newly created Branch Names]]>
+    </line>
+    <line>
+      <![CDATA[Verification of recently deleted Staff Name]]>
+    </line>
+    <line>
+      <![CDATA[Verification of recently deleted Branch Code]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Newly created Staff Name]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Newly created Branch Names]]>
+    </line>
+    <line>
+      <![CDATA[Verification of recently created Staff Name]]>
+    </line>
+    <line>
+      <![CDATA[Verification of Newly created Branch Name]]>
+    </line>
+  </reporter-output>
+  <suite name="Gurukula Regression Automation Suite" duration-ms="334520" started-at="2018-07-10T01:39:34Z" finished-at="2018-07-10T01:45:08Z">
+    <groups>
+    </groups>
+    <test name="Full Regression Test" duration-ms="334520" started-at="2018-07-10T01:39:34Z" finished-at="2018-07-10T01:45:08Z">
+      <class name="com.gurukula.tests.StaffTest">
+        <test-method status="PASS" signature="M5_TS01_Create_new_staff(java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.StaffTest@1bce4f0a]" name="M5_TS01_Create_new_staff" duration-ms="6188" started-at="2018-07-10T01:43:54Z" data-provider="dataForStaffTest" finished-at="2018-07-10T01:44:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr Adam Smith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Computers]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verification of Newly created Staff Name]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Newly created Branch Names]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M5_TS01_Create_new_staff -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.StaffTest@1bce4f0a]" name="goToHomePage" is-config="true" duration-ms="375" started-at="2018-07-10T01:44:01Z" finished-at="2018-07-10T01:44:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M5_TS01_Create_new_staff(java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.StaffTest@1bce4f0a]" name="M5_TS01_Create_new_staff" duration-ms="5018" started-at="2018-07-10T01:44:01Z" data-provider="dataForStaffTest" finished-at="2018-07-10T01:44:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mrs Elizabeth Sen]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Computer Networks]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verification of Newly created Staff Name]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Newly created Branch Names]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M5_TS01_Create_new_staff -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.StaffTest@1bce4f0a]" name="goToHomePage" is-config="true" duration-ms="715" started-at="2018-07-10T01:44:06Z" finished-at="2018-07-10T01:44:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M5_TS01_Create_new_staff(java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.StaffTest@1bce4f0a]" name="M5_TS01_Create_new_staff" duration-ms="4317" started-at="2018-07-10T01:44:07Z" data-provider="dataForStaffTest" finished-at="2018-07-10T01:44:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dr Peter Kokes]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Python Programming]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verification of Newly created Staff Name]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Newly created Branch Names]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M5_TS01_Create_new_staff -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.StaffTest@1bce4f0a]" name="goToHomePage" is-config="true" duration-ms="330" started-at="2018-07-10T01:44:11Z" finished-at="2018-07-10T01:44:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M5_TS01_Create_new_staff(java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.StaffTest@1bce4f0a]" name="M5_TS01_Create_new_staff" duration-ms="4787" started-at="2018-07-10T01:44:11Z" data-provider="dataForStaffTest" finished-at="2018-07-10T01:44:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Prof Stefan Ring]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Computer Networks]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verification of Newly created Staff Name]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Newly created Branch Names]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M5_TS01_Create_new_staff -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.StaffTest@1bce4f0a]" name="goToHomePage" is-config="true" duration-ms="332" started-at="2018-07-10T01:44:16Z" finished-at="2018-07-10T01:44:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M5_TS01_Create_new_staff(java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.StaffTest@1bce4f0a]" name="M5_TS01_Create_new_staff" duration-ms="7635" started-at="2018-07-10T01:44:17Z" data-provider="dataForStaffTest" finished-at="2018-07-10T01:44:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr Richard Stamm]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Java Programming]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verification of Newly created Staff Name]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Newly created Branch Names]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M5_TS01_Create_new_staff -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.StaffTest@1bce4f0a]" name="goToHomePage" is-config="true" duration-ms="580" started-at="2018-07-10T01:44:24Z" finished-at="2018-07-10T01:44:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M5_TS01_Create_new_staff(java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.StaffTest@1bce4f0a]" name="M5_TS01_Create_new_staff" duration-ms="5000" started-at="2018-07-10T01:44:25Z" data-provider="dataForStaffTest" finished-at="2018-07-10T01:44:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr Empty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verification of Newly created Staff Name]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Newly created Branch Names]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M5_TS01_Create_new_staff -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.StaffTest@1bce4f0a]" name="goToHomePage" is-config="true" duration-ms="770" started-at="2018-07-10T01:44:30Z" finished-at="2018-07-10T01:44:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M5_TS02_Verify_StaffCreationError_Message_Handling(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.StaffTest@1bce4f0a]" name="M5_TS02_Verify_StaffCreationError_Message_Handling" duration-ms="2440" started-at="2018-07-10T01:44:30Z" data-provider="dataForStaffErrorHandlingTest" finished-at="2018-07-10T01:44:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[This field is required.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verification of Branch Name Error Message This field is required.->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M5_TS02_Verify_StaffCreationError_Message_Handling -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.StaffTest@1bce4f0a]" name="goToHomePage" is-config="true" duration-ms="394" started-at="2018-07-10T01:44:33Z" finished-at="2018-07-10T01:44:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M5_TS02_Verify_StaffCreationError_Message_Handling(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.StaffTest@1bce4f0a]" name="M5_TS02_Verify_StaffCreationError_Message_Handling" duration-ms="2941" started-at="2018-07-10T01:44:33Z" data-provider="dataForStaffErrorHandlingTest" finished-at="2018-07-10T01:44:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ProfessorName ProfessorName ProfessorName Professor]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[This field cannot be longer than 50 characters.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verification of Branch Name Error Message This field cannot be longer than 50 characters.->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M5_TS02_Verify_StaffCreationError_Message_Handling -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.StaffTest@1bce4f0a]" name="goToHomePage" is-config="true" duration-ms="351" started-at="2018-07-10T01:44:36Z" finished-at="2018-07-10T01:44:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M5_TS02_Verify_StaffCreationError_Message_Handling(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.StaffTest@1bce4f0a]" name="M5_TS02_Verify_StaffCreationError_Message_Handling" duration-ms="2387" started-at="2018-07-10T01:44:37Z" data-provider="dataForStaffErrorHandlingTest" finished-at="2018-07-10T01:44:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Prof Adam1235]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[This field should follow pattern ^[a-zA-Z\s]*$.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verification of Branch Name Error Message This field should follow pattern ^[a-zA-Z\s]*$.->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M5_TS02_Verify_StaffCreationError_Message_Handling -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.StaffTest@1bce4f0a]" name="goToHomePage" is-config="true" duration-ms="352" started-at="2018-07-10T01:44:39Z" finished-at="2018-07-10T01:44:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M5_TS03_Verify_StaffEdit()[pri:0, instance:com.gurukula.tests.StaffTest@1bce4f0a]" name="M5_TS03_Verify_StaffEdit" duration-ms="7702" started-at="2018-07-10T01:44:39Z" finished-at="2018-07-10T01:44:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Verification of Newly created Staff Name]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Newly created Branch Names]]>
+            </line>
+            <line>
+              <![CDATA[Verification of recently Edited Staff Name]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Newly Edited Branch Code]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M5_TS03_Verify_StaffEdit -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.StaffTest@1bce4f0a]" name="goToHomePage" is-config="true" duration-ms="392" started-at="2018-07-10T01:44:47Z" finished-at="2018-07-10T01:44:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M5_TS04_Verify_StaffDelete()[pri:0, instance:com.gurukula.tests.StaffTest@1bce4f0a]" name="M5_TS04_Verify_StaffDelete" duration-ms="7706" started-at="2018-07-10T01:44:47Z" finished-at="2018-07-10T01:44:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Verification of Newly created Staff Name]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Newly created Branch Names]]>
+            </line>
+            <line>
+              <![CDATA[Verification of recently deleted Staff Name]]>
+            </line>
+            <line>
+              <![CDATA[Verification of recently deleted Branch Code]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M5_TS04_Verify_StaffDelete -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.StaffTest@1bce4f0a]" name="goToHomePage" is-config="true" duration-ms="327" started-at="2018-07-10T01:44:55Z" finished-at="2018-07-10T01:44:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M5_TS05_Verify_StaffView()[pri:0, instance:com.gurukula.tests.StaffTest@1bce4f0a]" name="M5_TS05_Verify_StaffView" duration-ms="5137" started-at="2018-07-10T01:44:56Z" finished-at="2018-07-10T01:45:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Verification of Newly created Staff Name]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Newly created Branch Names]]>
+            </line>
+            <line>
+              <![CDATA[Verification of recently created Staff Name]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Newly created Branch Name]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M5_TS05_Verify_StaffView -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.StaffTest@1bce4f0a]" name="goToHomePage" is-config="true" duration-ms="287" started-at="2018-07-10T01:45:01Z" finished-at="2018-07-10T01:45:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+      </class> <!-- com.gurukula.tests.StaffTest -->
+      <class name="com.gurukula.tests.BranchTest">
+        <test-method status="PASS" signature="M4_TS01_Create_newBranch(java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.BranchTest@3bfdc050]" name="M4_TS01_Create_newBranch" duration-ms="4664" started-at="2018-07-10T01:42:42Z" data-provider="dataForBranchTest" finished-at="2018-07-10T01:42:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Computers]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ITC01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verification of Newly created Branch Name]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Newly created Branch Code]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M4_TS01_Create_newBranch -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.BranchTest@3bfdc050]" name="goToHomePage" is-config="true" duration-ms="449" started-at="2018-07-10T01:42:47Z" finished-at="2018-07-10T01:42:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M4_TS01_Create_newBranch(java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.BranchTest@3bfdc050]" name="M4_TS01_Create_newBranch" duration-ms="3959" started-at="2018-07-10T01:42:47Z" data-provider="dataForBranchTest" finished-at="2018-07-10T01:42:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Computer Networks]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CN01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verification of Newly created Branch Name]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Newly created Branch Code]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M4_TS01_Create_newBranch -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.BranchTest@3bfdc050]" name="goToHomePage" is-config="true" duration-ms="345" started-at="2018-07-10T01:42:51Z" finished-at="2018-07-10T01:42:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M4_TS01_Create_newBranch(java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.BranchTest@3bfdc050]" name="M4_TS01_Create_newBranch" duration-ms="3993" started-at="2018-07-10T01:42:51Z" data-provider="dataForBranchTest" finished-at="2018-07-10T01:42:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C Programming]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CP01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verification of Newly created Branch Name]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Newly created Branch Code]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M4_TS01_Create_newBranch -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.BranchTest@3bfdc050]" name="goToHomePage" is-config="true" duration-ms="320" started-at="2018-07-10T01:42:55Z" finished-at="2018-07-10T01:42:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M4_TS01_Create_newBranch(java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.BranchTest@3bfdc050]" name="M4_TS01_Create_newBranch" duration-ms="4390" started-at="2018-07-10T01:42:56Z" data-provider="dataForBranchTest" finished-at="2018-07-10T01:43:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Python Programming]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CP02]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verification of Newly created Branch Name]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Newly created Branch Code]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M4_TS01_Create_newBranch -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.BranchTest@3bfdc050]" name="goToHomePage" is-config="true" duration-ms="307" started-at="2018-07-10T01:43:00Z" finished-at="2018-07-10T01:43:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M4_TS01_Create_newBranch(java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.BranchTest@3bfdc050]" name="M4_TS01_Create_newBranch" duration-ms="4193" started-at="2018-07-10T01:43:00Z" data-provider="dataForBranchTest" finished-at="2018-07-10T01:43:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Java Programming]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CP03]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verification of Newly created Branch Name]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Newly created Branch Code]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M4_TS01_Create_newBranch -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.BranchTest@3bfdc050]" name="goToHomePage" is-config="true" duration-ms="331" started-at="2018-07-10T01:43:05Z" finished-at="2018-07-10T01:43:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M4_TS02_Verify_BranchCreationError_Message_Handling(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.BranchTest@3bfdc050]" name="M4_TS02_Verify_BranchCreationError_Message_Handling" duration-ms="1809" started-at="2018-07-10T01:43:05Z" data-provider="dataForBranchErrorHandlingTest" finished-at="2018-07-10T01:43:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[This field is required.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verification of Branch Name Error Message This field is required.->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M4_TS02_Verify_BranchCreationError_Message_Handling -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.BranchTest@3bfdc050]" name="goToHomePage" is-config="true" duration-ms="391" started-at="2018-07-10T01:43:07Z" finished-at="2018-07-10T01:43:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M4_TS02_Verify_BranchCreationError_Message_Handling(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.BranchTest@3bfdc050]" name="M4_TS02_Verify_BranchCreationError_Message_Handling" duration-ms="3027" started-at="2018-07-10T01:43:07Z" data-provider="dataForBranchErrorHandlingTest" finished-at="2018-07-10T01:43:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ITC01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[This field is required to be at least 5 characters.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verification of Branch Name Error Message This field is required to be at least 5 characters.->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M4_TS02_Verify_BranchCreationError_Message_Handling -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.BranchTest@3bfdc050]" name="goToHomePage" is-config="true" duration-ms="348" started-at="2018-07-10T01:43:10Z" finished-at="2018-07-10T01:43:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M4_TS02_Verify_BranchCreationError_Message_Handling(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.BranchTest@3bfdc050]" name="M4_TS02_Verify_BranchCreationError_Message_Handling" duration-ms="2918" started-at="2018-07-10T01:43:10Z" data-provider="dataForBranchErrorHandlingTest" finished-at="2018-07-10T01:43:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BRANCHNAME BRANCHNAME]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ITC01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[This field cannot be longer than 20 characters.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verification of Branch Name Error Message This field cannot be longer than 20 characters.->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M4_TS02_Verify_BranchCreationError_Message_Handling -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.BranchTest@3bfdc050]" name="goToHomePage" is-config="true" duration-ms="358" started-at="2018-07-10T01:43:13Z" finished-at="2018-07-10T01:43:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M4_TS02_Verify_BranchCreationError_Message_Handling(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.BranchTest@3bfdc050]" name="M4_TS02_Verify_BranchCreationError_Message_Handling" duration-ms="2858" started-at="2018-07-10T01:43:14Z" data-provider="dataForBranchErrorHandlingTest" finished-at="2018-07-10T01:43:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Branch124]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ITC01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[This field should follow pattern ^[a-zA-Z\s]*$.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verification of Branch Name Error Message This field should follow pattern ^[a-zA-Z\s]*$.->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M4_TS02_Verify_BranchCreationError_Message_Handling -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.BranchTest@3bfdc050]" name="goToHomePage" is-config="true" duration-ms="380" started-at="2018-07-10T01:43:17Z" finished-at="2018-07-10T01:43:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M4_TS02_Verify_BranchCreationError_Message_Handling(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.BranchTest@3bfdc050]" name="M4_TS02_Verify_BranchCreationError_Message_Handling" duration-ms="3264" started-at="2018-07-10T01:43:17Z" data-provider="dataForBranchErrorHandlingTest" finished-at="2018-07-10T01:43:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[This field is required.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verification of Branch Code Error Message This field is required.->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M4_TS02_Verify_BranchCreationError_Message_Handling -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.BranchTest@3bfdc050]" name="goToHomePage" is-config="true" duration-ms="615" started-at="2018-07-10T01:43:20Z" finished-at="2018-07-10T01:43:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M4_TS02_Verify_BranchCreationError_Message_Handling(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.BranchTest@3bfdc050]" name="M4_TS02_Verify_BranchCreationError_Message_Handling" duration-ms="4821" started-at="2018-07-10T01:43:21Z" data-provider="dataForBranchErrorHandlingTest" finished-at="2018-07-10T01:43:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BRANCHNAME]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[I]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[This field is required to be at least 2 characters.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verification of Branch Code Error Message This field is required to be at least 2 characters.->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M4_TS02_Verify_BranchCreationError_Message_Handling -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.BranchTest@3bfdc050]" name="goToHomePage" is-config="true" duration-ms="362" started-at="2018-07-10T01:43:26Z" finished-at="2018-07-10T01:43:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M4_TS02_Verify_BranchCreationError_Message_Handling(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.BranchTest@3bfdc050]" name="M4_TS02_Verify_BranchCreationError_Message_Handling" duration-ms="3938" started-at="2018-07-10T01:43:26Z" data-provider="dataForBranchErrorHandlingTest" finished-at="2018-07-10T01:43:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BRANCHNAME]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ITC01234567]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[This field cannot be longer than 10 characters.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verification of Branch Code Error Message This field cannot be longer than 10 characters.->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M4_TS02_Verify_BranchCreationError_Message_Handling -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.BranchTest@3bfdc050]" name="goToHomePage" is-config="true" duration-ms="486" started-at="2018-07-10T01:43:30Z" finished-at="2018-07-10T01:43:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M4_TS02_Verify_BranchCreationError_Message_Handling(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.BranchTest@3bfdc050]" name="M4_TS02_Verify_BranchCreationError_Message_Handling" duration-ms="3956" started-at="2018-07-10T01:43:30Z" data-provider="dataForBranchErrorHandlingTest" finished-at="2018-07-10T01:43:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BRANCHNAME]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abcd01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[This field should follow pattern ^[A-Z0-9]*$.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verification of Branch Code Error Message This field should follow pattern ^[A-Z0-9]*$.->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M4_TS02_Verify_BranchCreationError_Message_Handling -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.BranchTest@3bfdc050]" name="goToHomePage" is-config="true" duration-ms="367" started-at="2018-07-10T01:43:34Z" finished-at="2018-07-10T01:43:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M4_TS03_Verify_BranchEdit()[pri:0, instance:com.gurukula.tests.BranchTest@3bfdc050]" name="M4_TS03_Verify_BranchEdit" duration-ms="7134" started-at="2018-07-10T01:43:35Z" finished-at="2018-07-10T01:43:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Verification of Newly created Branch Name]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Newly created Branch Code]]>
+            </line>
+            <line>
+              <![CDATA[Verification of recently Edited Branch Name]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Newly Edited Branch Code]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M4_TS03_Verify_BranchEdit -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.BranchTest@3bfdc050]" name="goToHomePage" is-config="true" duration-ms="342" started-at="2018-07-10T01:43:42Z" finished-at="2018-07-10T01:43:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M4_TS04_Verify_BranchDelete()[pri:0, instance:com.gurukula.tests.BranchTest@3bfdc050]" name="M4_TS04_Verify_BranchDelete" duration-ms="6400" started-at="2018-07-10T01:43:42Z" finished-at="2018-07-10T01:43:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Verification of Newly created Branch Name]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Newly created Branch Code]]>
+            </line>
+            <line>
+              <![CDATA[Verification of recently deleted Branch Name]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Newly deleted Branch Code]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M4_TS04_Verify_BranchDelete -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.BranchTest@3bfdc050]" name="goToHomePage" is-config="true" duration-ms="385" started-at="2018-07-10T01:43:49Z" finished-at="2018-07-10T01:43:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M4_TS05_Verify_BranchView()[pri:0, instance:com.gurukula.tests.BranchTest@3bfdc050]" name="M4_TS05_Verify_BranchView" duration-ms="5091" started-at="2018-07-10T01:43:49Z" finished-at="2018-07-10T01:43:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Verification of Newly created Branch Name]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Newly created Branch Code]]>
+            </line>
+            <line>
+              <![CDATA[Verification of recently created Branch Name]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Newly created Branch Code]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M4_TS05_Verify_BranchView -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.BranchTest@3bfdc050]" name="goToHomePage" is-config="true" duration-ms="288" started-at="2018-07-10T01:43:54Z" finished-at="2018-07-10T01:43:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+      </class> <!-- com.gurukula.tests.BranchTest -->
+      <class name="com.gurukula.tests.AccountTest">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:com.gurukula.tests.AccountTest@42d80b78]" name="startTest" is-config="true" duration-ms="16714" started-at="2018-07-10T01:39:34Z" finished-at="2018-07-10T01:39:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="startTest()[pri:0, instance:com.gurukula.tests.BranchTest@3bfdc050]" name="startTest" is-config="true" duration-ms="13566" started-at="2018-07-10T01:39:51Z" finished-at="2018-07-10T01:40:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="startTest()[pri:0, instance:com.gurukula.tests.LoginTest@77caeb3e]" name="startTest" is-config="true" duration-ms="12053" started-at="2018-07-10T01:40:04Z" finished-at="2018-07-10T01:40:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="startTest()[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="startTest" is-config="true" duration-ms="17656" started-at="2018-07-10T01:40:16Z" finished-at="2018-07-10T01:40:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="startTest()[pri:0, instance:com.gurukula.tests.StaffTest@1bce4f0a]" name="startTest" is-config="true" duration-ms="16705" started-at="2018-07-10T01:40:34Z" finished-at="2018-07-10T01:40:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="FAIL" signature="M3_TS01_Verify_user_settings_change()[pri:0, instance:com.gurukula.tests.AccountTest@42d80b78]" name="M3_TS01_Verify_user_settings_change" duration-ms="2796" started-at="2018-07-10T01:42:03Z" finished-at="2018-07-10T01:42:06Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Sucess!] but found [An error has occurred!]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Sucess!] but found [An error has occurred!]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.gurukula.tests.AccountTest.M3_TS01_Verify_user_settings_change(AccountTest.java:60)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- M3_TS01_Verify_user_settings_change -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.AccountTest@42d80b78]" name="goToHomePage" is-config="true" duration-ms="349" started-at="2018-07-10T01:42:06Z" finished-at="2018-07-10T01:42:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="FAIL" signature="M3_TS02_Verify_Change_user_password()[pri:0, instance:com.gurukula.tests.AccountTest@42d80b78]" name="M3_TS02_Verify_Change_user_password" duration-ms="5795" started-at="2018-07-10T01:42:06Z" finished-at="2018-07-10T01:42:12Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Sucess!] but found [An error has occurred!]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Sucess!] but found [An error has occurred!]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.gurukula.tests.AccountTest.M3_TS02_Verify_Change_user_password(AccountTest.java:81)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- M3_TS02_Verify_Change_user_password -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.AccountTest@42d80b78]" name="goToHomePage" is-config="true" duration-ms="343" started-at="2018-07-10T01:42:12Z" finished-at="2018-07-10T01:42:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M3_TS03_VerifyPasswordStrength_ChangePwdScreen(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.AccountTest@42d80b78]" name="M3_TS03_VerifyPasswordStrength_ChangePwdScreen" duration-ms="1267" started-at="2018-07-10T01:42:12Z" data-provider="dataForPwdStrengthTest" finished-at="2018-07-10T01:42:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@2018!!!!!]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Very Strong]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click Passwords sub-menu ->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M3_TS03_VerifyPasswordStrength_ChangePwdScreen -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.AccountTest@42d80b78]" name="goToHomePage" is-config="true" duration-ms="368" started-at="2018-07-10T01:42:13Z" finished-at="2018-07-10T01:42:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M3_TS03_VerifyPasswordStrength_ChangePwdScreen(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.AccountTest@42d80b78]" name="M3_TS03_VerifyPasswordStrength_ChangePwdScreen" duration-ms="1177" started-at="2018-07-10T01:42:14Z" data-provider="dataForPwdStrengthTest" finished-at="2018-07-10T01:42:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@2018]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Strong]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click Passwords sub-menu ->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M3_TS03_VerifyPasswordStrength_ChangePwdScreen -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.AccountTest@42d80b78]" name="goToHomePage" is-config="true" duration-ms="375" started-at="2018-07-10T01:42:15Z" finished-at="2018-07-10T01:42:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M3_TS03_VerifyPasswordStrength_ChangePwdScreen(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.AccountTest@42d80b78]" name="M3_TS03_VerifyPasswordStrength_ChangePwdScreen" duration-ms="1227" started-at="2018-07-10T01:42:15Z" data-provider="dataForPwdStrengthTest" finished-at="2018-07-10T01:42:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Very Weak]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click Passwords sub-menu ->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M3_TS03_VerifyPasswordStrength_ChangePwdScreen -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.AccountTest@42d80b78]" name="goToHomePage" is-config="true" duration-ms="262" started-at="2018-07-10T01:42:17Z" finished-at="2018-07-10T01:42:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M3_TS03_VerifyPasswordStrength_ChangePwdScreen(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.AccountTest@42d80b78]" name="M3_TS03_VerifyPasswordStrength_ChangePwdScreen" duration-ms="1072" started-at="2018-07-10T01:42:17Z" data-provider="dataForPwdStrengthTest" finished-at="2018-07-10T01:42:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345abcde]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Weak]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click Passwords sub-menu ->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M3_TS03_VerifyPasswordStrength_ChangePwdScreen -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.AccountTest@42d80b78]" name="goToHomePage" is-config="true" duration-ms="359" started-at="2018-07-10T01:42:18Z" finished-at="2018-07-10T01:42:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M3_TS03_VerifyPasswordStrength_ChangePwdScreen(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.AccountTest@42d80b78]" name="M3_TS03_VerifyPasswordStrength_ChangePwdScreen" duration-ms="1421" started-at="2018-07-10T01:42:18Z" data-provider="dataForPwdStrengthTest" finished-at="2018-07-10T01:42:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Your password is required.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click Passwords sub-menu ->]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Password Error Message Your password is required.->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M3_TS03_VerifyPasswordStrength_ChangePwdScreen -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.AccountTest@42d80b78]" name="goToHomePage" is-config="true" duration-ms="348" started-at="2018-07-10T01:42:20Z" finished-at="2018-07-10T01:42:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M3_TS03_VerifyPasswordStrength_ChangePwdScreen(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.AccountTest@42d80b78]" name="M3_TS03_VerifyPasswordStrength_ChangePwdScreen" duration-ms="1030" started-at="2018-07-10T01:42:20Z" data-provider="dataForPwdStrengthTest" finished-at="2018-07-10T01:42:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[p]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Your password is required to be at least 5 characters.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click Passwords sub-menu ->]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Password Error Message Your password is required to be at least 5 characters.->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M3_TS03_VerifyPasswordStrength_ChangePwdScreen -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.AccountTest@42d80b78]" name="goToHomePage" is-config="true" duration-ms="562" started-at="2018-07-10T01:42:21Z" finished-at="2018-07-10T01:42:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M3_TS03_VerifyPasswordStrength_ChangePwdScreen(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.AccountTest@42d80b78]" name="M3_TS03_VerifyPasswordStrength_ChangePwdScreen" duration-ms="2279" started-at="2018-07-10T01:42:22Z" data-provider="dataForPwdStrengthTest" finished-at="2018-07-10T01:42:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1234567890password1234567890password1234567]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Your password cannot be longer than 50 characters.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click Passwords sub-menu ->]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Password Error Message Your password cannot be longer than 50 characters.->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M3_TS03_VerifyPasswordStrength_ChangePwdScreen -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.AccountTest@42d80b78]" name="goToHomePage" is-config="true" duration-ms="418" started-at="2018-07-10T01:42:24Z" finished-at="2018-07-10T01:42:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="FAIL" signature="M3_TS03_VerifyPasswordStrength_ChangePwdScreen(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.AccountTest@42d80b78]" name="M3_TS03_VerifyPasswordStrength_ChangePwdScreen" duration-ms="1072" started-at="2018-07-10T01:42:24Z" data-provider="dataForPwdStrengthTest" finished-at="2018-07-10T01:42:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345$]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Password should begin with a alphabet and should contain a number and a special character.]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Password should begin with a alphabet and should contain a number and a special character.] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Password should begin with a alphabet and should contain a number and a special character.] but found []
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.gurukula.tests.AccountTest.M3_TS03_VerifyPasswordStrength_ChangePwdScreen(AccountTest.java:127)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Click Passwords sub-menu ->]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Password Error Message ->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M3_TS03_VerifyPasswordStrength_ChangePwdScreen -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.AccountTest@42d80b78]" name="goToHomePage" is-config="true" duration-ms="311" started-at="2018-07-10T01:42:25Z" finished-at="2018-07-10T01:42:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M3_TS03_VerifyPasswordStrength_ChangePwdScreen(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.AccountTest@42d80b78]" name="M3_TS03_VerifyPasswordStrength_ChangePwdScreen" duration-ms="1425" started-at="2018-07-10T01:42:26Z" data-provider="dataForPwdStrengthTest" finished-at="2018-07-10T01:42:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[112345]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Your confirmation password is required.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click Passwords sub-menu ->]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Confirm Password Error Message Your confirmation password is required.->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M3_TS03_VerifyPasswordStrength_ChangePwdScreen -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.AccountTest@42d80b78]" name="goToHomePage" is-config="true" duration-ms="277" started-at="2018-07-10T01:42:27Z" finished-at="2018-07-10T01:42:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M3_TS03_VerifyPasswordStrength_ChangePwdScreen(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.AccountTest@42d80b78]" name="M3_TS03_VerifyPasswordStrength_ChangePwdScreen" duration-ms="1447" started-at="2018-07-10T01:42:27Z" data-provider="dataForPwdStrengthTest" finished-at="2018-07-10T01:42:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password1234567890password1234567890password1234567]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Your confirmation password cannot be longer than 50 characters.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click Passwords sub-menu ->]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Confirm Password Error Message Your confirmation password cannot be longer than 50 characters.->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M3_TS03_VerifyPasswordStrength_ChangePwdScreen -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.AccountTest@42d80b78]" name="goToHomePage" is-config="true" duration-ms="365" started-at="2018-07-10T01:42:29Z" finished-at="2018-07-10T01:42:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M3_TS03_VerifyPasswordStrength_ChangePwdScreen(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.AccountTest@42d80b78]" name="M3_TS03_VerifyPasswordStrength_ChangePwdScreen" duration-ms="1044" started-at="2018-07-10T01:42:29Z" data-provider="dataForPwdStrengthTest" finished-at="2018-07-10T01:42:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Your confirmation password is required to be at least 5 characters.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click Passwords sub-menu ->]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Confirm Password Error Message Your confirmation password is required to be at least 5 characters.->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M3_TS03_VerifyPasswordStrength_ChangePwdScreen -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.AccountTest@42d80b78]" name="goToHomePage" is-config="true" duration-ms="241" started-at="2018-07-10T01:42:30Z" finished-at="2018-07-10T01:42:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="FAIL" signature="M3_TS03_VerifyPasswordStrength_ChangePwdScreen(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.AccountTest@42d80b78]" name="M3_TS03_VerifyPasswordStrength_ChangePwdScreen" duration-ms="1001" started-at="2018-07-10T01:42:31Z" data-provider="dataForPwdStrengthTest" finished-at="2018-07-10T01:42:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345$]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Password should begin with a alphabet and should contain a number and a special character.]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Password should begin with a alphabet and should contain a number and a special character.] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Password should begin with a alphabet and should contain a number and a special character.] but found []
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.gurukula.tests.AccountTest.M3_TS03_VerifyPasswordStrength_ChangePwdScreen(AccountTest.java:151)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Click Passwords sub-menu ->]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Confirm Password Error Message ->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M3_TS03_VerifyPasswordStrength_ChangePwdScreen -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.AccountTest@42d80b78]" name="goToHomePage" is-config="true" duration-ms="270" started-at="2018-07-10T01:42:32Z" finished-at="2018-07-10T01:42:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="FAIL" signature="M3_TS03_VerifyPasswordStrength_ChangePwdScreen(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.AccountTest@42d80b78]" name="M3_TS03_VerifyPasswordStrength_ChangePwdScreen" duration-ms="1820" started-at="2018-07-10T01:42:32Z" data-provider="dataForPwdStrengthTest" finished-at="2018-07-10T01:42:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[45678]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[The password and its confirmation do not match!]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [The password and its confirmation do not match!] but found [Password for [admin]
+The password and its confirmation do not match!
+New password
+Password strength:
+New password confirmation
+Save
+Copyright © 2015. All rights reserved]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [The password and its confirmation do not match!] but found [Password for [admin]
+The password and its confirmation do not match!
+New password
+Password strength:
+New password confirmation
+Save
+Copyright © 2015. All rights reserved]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.gurukula.tests.AccountTest.M3_TS03_VerifyPasswordStrength_ChangePwdScreen(AccountTest.java:158)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Click Passwords sub-menu ->]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Password Mismatch Error Message ->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M3_TS03_VerifyPasswordStrength_ChangePwdScreen -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.AccountTest@42d80b78]" name="goToHomePage" is-config="true" duration-ms="256" started-at="2018-07-10T01:42:34Z" finished-at="2018-07-10T01:42:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M3_TS04_VerifySettings_EmailFieldErrors(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.AccountTest@42d80b78]" name="M3_TS04_VerifySettings_EmailFieldErrors" duration-ms="1042" started-at="2018-07-10T01:42:34Z" data-provider="dataForFieldErrorsTest" finished-at="2018-07-10T01:42:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[email]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Your e-mail is invalid.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click Settings sub-menu ->]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Email Error Message Your e-mail is invalid.->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M3_TS04_VerifySettings_EmailFieldErrors -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.AccountTest@42d80b78]" name="goToHomePage" is-config="true" duration-ms="371" started-at="2018-07-10T01:42:35Z" finished-at="2018-07-10T01:42:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M3_TS04_VerifySettings_EmailFieldErrors(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.AccountTest@42d80b78]" name="M3_TS04_VerifySettings_EmailFieldErrors" duration-ms="1100" started-at="2018-07-10T01:42:35Z" data-provider="dataForFieldErrorsTest" finished-at="2018-07-10T01:42:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a@a.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Your e-mail is required.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click Settings sub-menu ->]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Email Error Message Your e-mail is required.->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M3_TS04_VerifySettings_EmailFieldErrors -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.AccountTest@42d80b78]" name="goToHomePage" is-config="true" duration-ms="290" started-at="2018-07-10T01:42:36Z" finished-at="2018-07-10T01:42:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M3_TS04_VerifySettings_EmailFieldErrors(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.AccountTest@42d80b78]" name="M3_TS04_VerifySettings_EmailFieldErrors" duration-ms="973" started-at="2018-07-10T01:42:37Z" data-provider="dataForFieldErrorsTest" finished-at="2018-07-10T01:42:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a@a]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Your e-mail is required to be at least 5 characters.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click Settings sub-menu ->]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Email Error Message Your e-mail is required to be at least 5 characters.->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M3_TS04_VerifySettings_EmailFieldErrors -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.AccountTest@42d80b78]" name="goToHomePage" is-config="true" duration-ms="300" started-at="2018-07-10T01:42:38Z" finished-at="2018-07-10T01:42:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="FAIL" signature="M3_TS04_VerifySettings_EmailFieldErrors(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.AccountTest@42d80b78]" name="M3_TS04_VerifySettings_EmailFieldErrors" duration-ms="1682" started-at="2018-07-10T01:42:38Z" data-provider="dataForFieldErrorsTest" finished-at="2018-07-10T01:42:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[email1234567890123456789012345678901234567812@com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Your e-mail cannot be longer than 50 characters.]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Your e-mail cannot be longer than 50 characters.] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Your e-mail cannot be longer than 50 characters.] but found []
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.gurukula.tests.AccountTest.M3_TS04_VerifySettings_EmailFieldErrors(AccountTest.java:188)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Click Settings sub-menu ->]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Email Error Message ->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M3_TS04_VerifySettings_EmailFieldErrors -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.AccountTest@42d80b78]" name="goToHomePage" is-config="true" duration-ms="283" started-at="2018-07-10T01:42:40Z" finished-at="2018-07-10T01:42:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="FAIL" signature="M3_TS05_Verify_Invalidate_Session()[pri:0, instance:com.gurukula.tests.AccountTest@42d80b78]" name="M3_TS05_Verify_Invalidate_Session" duration-ms="1693" started-at="2018-07-10T01:42:40Z" finished-at="2018-07-10T01:42:42Z">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'M5-L-5194G16', ip: '172.31.9.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\NITISH~1.CHO\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 3ddf396466a672e3b5e00e550f965fb3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'M5-L-5194G16', ip: '172.31.9.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\NITISH~1.CHO\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 3ddf396466a672e3b5e00e550f965fb3
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:160)
+at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy11.getText(Unknown Source)
+at com.gurukula.pages.BasicPage.getPageHeader(BasicPage.java:74)
+at com.gurukula.tests.AccountTest.M3_TS05_Verify_Invalidate_Session(AccountTest.java:203)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- M3_TS05_Verify_Invalidate_Session -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.AccountTest@42d80b78]" name="goToHomePage" is-config="true" duration-ms="297" started-at="2018-07-10T01:42:42Z" finished-at="2018-07-10T01:42:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="finishTest()[pri:0, instance:com.gurukula.tests.AccountTest@42d80b78]" name="finishTest" is-config="true" duration-ms="1553" started-at="2018-07-10T01:45:01Z" finished-at="2018-07-10T01:45:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishTest -->
+        <test-method status="PASS" signature="finishTest()[pri:0, instance:com.gurukula.tests.BranchTest@3bfdc050]" name="finishTest" is-config="true" duration-ms="1659" started-at="2018-07-10T01:45:02Z" finished-at="2018-07-10T01:45:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishTest -->
+        <test-method status="PASS" signature="finishTest()[pri:0, instance:com.gurukula.tests.LoginTest@77caeb3e]" name="finishTest" is-config="true" duration-ms="1091" started-at="2018-07-10T01:45:04Z" finished-at="2018-07-10T01:45:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishTest -->
+        <test-method status="PASS" signature="finishTest()[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="finishTest" is-config="true" duration-ms="1145" started-at="2018-07-10T01:45:05Z" finished-at="2018-07-10T01:45:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishTest -->
+        <test-method status="PASS" signature="finishTest()[pri:0, instance:com.gurukula.tests.StaffTest@1bce4f0a]" name="finishTest" is-config="true" duration-ms="2009" started-at="2018-07-10T01:45:06Z" finished-at="2018-07-10T01:45:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishTest -->
+      </class> <!-- com.gurukula.tests.AccountTest -->
+      <class name="com.gurukula.tests.LoginTest">
+        <test-method status="PASS" signature="M1_TS01_Login_VerifyApplicationIsUp()[pri:0, instance:com.gurukula.tests.LoginTest@77caeb3e]" name="M1_TS01_Login_VerifyApplicationIsUp" duration-ms="68" started-at="2018-07-10T01:40:51Z" finished-at="2018-07-10T01:40:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TC01_Verify Application is running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M1_TS01_Login_VerifyApplicationIsUp -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.LoginTest@77caeb3e]" name="goToHomePage" is-config="true" duration-ms="486" started-at="2018-07-10T01:40:51Z" finished-at="2018-07-10T01:40:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M1_TS02_VerifyLogin(java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.LoginTest@77caeb3e]" name="M1_TS02_VerifyLogin" duration-ms="3019" started-at="2018-07-10T01:40:51Z" data-provider="dataForValidLoginTest" finished-at="2018-07-10T01:40:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Step 1 : Click Login Button]]>
+            </line>
+            <line>
+              <![CDATA[Step 2 : Enter Username <admin>]]>
+            </line>
+            <line>
+              <![CDATA[Step 3 : Enter Password <admin>]]>
+            </line>
+            <line>
+              <![CDATA[Step 4 : Click Authenticate Button]]>
+            </line>
+            <line>
+              <![CDATA[Step 5 : Verify Login should be sucessful
+]]>
+            </line>
+            <line>
+              <![CDATA[Step 6 : Logout user]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M1_TS02_VerifyLogin -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.LoginTest@77caeb3e]" name="goToHomePage" is-config="true" duration-ms="323" started-at="2018-07-10T01:40:54Z" finished-at="2018-07-10T01:40:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M1_TS03_VerifyInvalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.LoginTest@77caeb3e]" name="M1_TS03_VerifyInvalidLogin" duration-ms="2804" started-at="2018-07-10T01:40:55Z" data-provider="dataForInvalidLoginTest" finished-at="2018-07-10T01:40:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- M1_TS03_VerifyInvalidLogin -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.LoginTest@77caeb3e]" name="goToHomePage" is-config="true" duration-ms="310" started-at="2018-07-10T01:40:57Z" finished-at="2018-07-10T01:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M1_TS03_VerifyInvalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.LoginTest@77caeb3e]" name="M1_TS03_VerifyInvalidLogin" duration-ms="1788" started-at="2018-07-10T01:40:58Z" data-provider="dataForInvalidLoginTest" finished-at="2018-07-10T01:40:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- M1_TS03_VerifyInvalidLogin -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.LoginTest@77caeb3e]" name="goToHomePage" is-config="true" duration-ms="278" started-at="2018-07-10T01:40:59Z" finished-at="2018-07-10T01:41:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M1_TS03_VerifyInvalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.LoginTest@77caeb3e]" name="M1_TS03_VerifyInvalidLogin" duration-ms="1983" started-at="2018-07-10T01:41:00Z" data-provider="dataForInvalidLoginTest" finished-at="2018-07-10T01:41:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- M1_TS03_VerifyInvalidLogin -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.LoginTest@77caeb3e]" name="goToHomePage" is-config="true" duration-ms="328" started-at="2018-07-10T01:41:02Z" finished-at="2018-07-10T01:41:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M1_TS03_VerifyInvalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.LoginTest@77caeb3e]" name="M1_TS03_VerifyInvalidLogin" duration-ms="1972" started-at="2018-07-10T01:41:02Z" data-provider="dataForInvalidLoginTest" finished-at="2018-07-10T01:41:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tom]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- M1_TS03_VerifyInvalidLogin -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.LoginTest@77caeb3e]" name="goToHomePage" is-config="true" duration-ms="330" started-at="2018-07-10T01:41:04Z" finished-at="2018-07-10T01:41:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M1_TS04_Verify_Reset_your_password(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.LoginTest@77caeb3e]" name="M1_TS04_Verify_Reset_your_password" duration-ms="1236" started-at="2018-07-10T01:41:04Z" data-provider="dataForRestPwdTest" finished-at="2018-07-10T01:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[email]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Your e-mail is invalid.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TC04_Verify Reset your password functionality]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Confirm Password Error Message Your e-mail is invalid.->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M1_TS04_Verify_Reset_your_password -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.LoginTest@77caeb3e]" name="goToHomePage" is-config="true" duration-ms="255" started-at="2018-07-10T01:41:06Z" finished-at="2018-07-10T01:41:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M1_TS04_Verify_Reset_your_password(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.LoginTest@77caeb3e]" name="M1_TS04_Verify_Reset_your_password" duration-ms="1180" started-at="2018-07-10T01:41:06Z" data-provider="dataForRestPwdTest" finished-at="2018-07-10T01:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a@a.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Your e-mail is required.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TC04_Verify Reset your password functionality]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Confirm Password Error Message Your e-mail is required.->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M1_TS04_Verify_Reset_your_password -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.LoginTest@77caeb3e]" name="goToHomePage" is-config="true" duration-ms="522" started-at="2018-07-10T01:41:07Z" finished-at="2018-07-10T01:41:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M1_TS04_Verify_Reset_your_password(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.LoginTest@77caeb3e]" name="M1_TS04_Verify_Reset_your_password" duration-ms="1352" started-at="2018-07-10T01:41:08Z" data-provider="dataForRestPwdTest" finished-at="2018-07-10T01:41:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a@a]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Your e-mail is required to be at least 5 characters.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TC04_Verify Reset your password functionality]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Confirm Password Error Message Your e-mail is required to be at least 5 characters.->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M1_TS04_Verify_Reset_your_password -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.LoginTest@77caeb3e]" name="goToHomePage" is-config="true" duration-ms="489" started-at="2018-07-10T01:41:09Z" finished-at="2018-07-10T01:41:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="FAIL" signature="M1_TS04_Verify_Reset_your_password(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.LoginTest@77caeb3e]" name="M1_TS04_Verify_Reset_your_password" duration-ms="2209" started-at="2018-07-10T01:41:09Z" data-provider="dataForRestPwdTest" finished-at="2018-07-10T01:41:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[email1234567890123456789012345678901234567812@com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Your e-mail cannot be longer than 50 characters.]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Your e-mail cannot be longer than 50 characters.] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Your e-mail cannot be longer than 50 characters.] but found []
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.gurukula.tests.LoginTest.M1_TS04_Verify_Reset_your_password(LoginTest.java:100)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[TC04_Verify Reset your password functionality]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Confirm Password Error Message ->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M1_TS04_Verify_Reset_your_password -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.LoginTest@77caeb3e]" name="goToHomePage" is-config="true" duration-ms="264" started-at="2018-07-10T01:41:12Z" finished-at="2018-07-10T01:41:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M1_TS04_Verify_Reset_your_password(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.LoginTest@77caeb3e]" name="M1_TS04_Verify_Reset_your_password" duration-ms="1561" started-at="2018-07-10T01:41:12Z" data-provider="dataForRestPwdTest" finished-at="2018-07-10T01:41:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin@localhost.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[E-Mail address isn't registered!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TC04_Verify Reset your password functionality]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M1_TS04_Verify_Reset_your_password -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.LoginTest@77caeb3e]" name="goToHomePage" is-config="true" duration-ms="279" started-at="2018-07-10T01:41:13Z" finished-at="2018-07-10T01:41:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="FAIL" signature="M1_TS04_Verify_Reset_your_password(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.LoginTest@77caeb3e]" name="M1_TS04_Verify_Reset_your_password" duration-ms="1790" started-at="2018-07-10T01:41:14Z" data-provider="dataForRestPwdTest" finished-at="2018-07-10T01:41:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin@localhost]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Success!]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Success!] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Success!] but found []
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.gurukula.tests.LoginTest.M1_TS04_Verify_Reset_your_password(LoginTest.java:110)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[TC04_Verify Reset your password functionality]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M1_TS04_Verify_Reset_your_password -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.LoginTest@77caeb3e]" name="goToHomePage" is-config="true" duration-ms="294" started-at="2018-07-10T01:41:16Z" finished-at="2018-07-10T01:41:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+      </class> <!-- com.gurukula.tests.LoginTest -->
+      <class name="com.gurukula.tests.RegistrationTest">
+        <test-method status="FAIL" signature="M2_TS01_Verify_NewUser_Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="M2_TS01_Verify_NewUser_Registration" duration-ms="7909" started-at="2018-07-10T01:41:16Z" data-provider="dataForRegisterationTest" finished-at="2018-07-10T01:41:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nitish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nitish@opentrash.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test@2018!!!!!]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Test@2018!!!!!]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Registration Success!] but found [Registration failed!]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Registration Success!] but found [Registration failed!]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.gurukula.tests.RegistrationTest.M2_TS01_Verify_NewUser_Registration(RegistrationTest.java:51)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Click Register a new account link ->]]>
+            </line>
+            <line>
+              <![CDATA[Enter Login Name [nitish] ->]]>
+            </line>
+            <line>
+              <![CDATA[Enter Email [nitish@opentrash.com] ->]]>
+            </line>
+            <line>
+              <![CDATA[Enter Password [Test@2018!!!!!] ->]]>
+            </line>
+            <line>
+              <![CDATA[Enter Confirm Password [Test@2018!!!!!] ->]]>
+            </line>
+            <line>
+              <![CDATA[Click Register Button ->]]>
+            </line>
+            <line>
+              <![CDATA[Verify Success Message]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M2_TS01_Verify_NewUser_Registration -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="goToHomePage" is-config="true" duration-ms="633" started-at="2018-07-10T01:41:24Z" finished-at="2018-07-10T01:41:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M2_TS02_VerifyPasswordStrength(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="M2_TS02_VerifyPasswordStrength" duration-ms="3930" started-at="2018-07-10T01:41:24Z" data-provider="dataForPwdStrengthTest" finished-at="2018-07-10T01:41:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nitish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nitish@opentrash.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test@2018!!!!!]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Very Strong]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click Register a new account link ->]]>
+            </line>
+            <line>
+              <![CDATA[Enter Login Name [nitish] ->]]>
+            </line>
+            <line>
+              <![CDATA[Enter Email [nitish@opentrash.com] ->]]>
+            </line>
+            <line>
+              <![CDATA[Enter Password [Test@2018!!!!!] ->]]>
+            </line>
+            <line>
+              <![CDATA[Enter Confirm Password [] ->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M2_TS02_VerifyPasswordStrength -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="goToHomePage" is-config="true" duration-ms="406" started-at="2018-07-10T01:41:28Z" finished-at="2018-07-10T01:41:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M2_TS02_VerifyPasswordStrength(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="M2_TS02_VerifyPasswordStrength" duration-ms="2266" started-at="2018-07-10T01:41:29Z" data-provider="dataForPwdStrengthTest" finished-at="2018-07-10T01:41:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nitish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nitish@opentrash.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test@2018]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Strong]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click Register a new account link ->]]>
+            </line>
+            <line>
+              <![CDATA[Enter Login Name [nitish] ->]]>
+            </line>
+            <line>
+              <![CDATA[Enter Email [nitish@opentrash.com] ->]]>
+            </line>
+            <line>
+              <![CDATA[Enter Password [Test@2018] ->]]>
+            </line>
+            <line>
+              <![CDATA[Enter Confirm Password [] ->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M2_TS02_VerifyPasswordStrength -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="goToHomePage" is-config="true" duration-ms="595" started-at="2018-07-10T01:41:31Z" finished-at="2018-07-10T01:41:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M2_TS02_VerifyPasswordStrength(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="M2_TS02_VerifyPasswordStrength" duration-ms="2221" started-at="2018-07-10T01:41:32Z" data-provider="dataForPwdStrengthTest" finished-at="2018-07-10T01:41:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nitish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nitish@opentrash.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Very Weak]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click Register a new account link ->]]>
+            </line>
+            <line>
+              <![CDATA[Enter Login Name [nitish] ->]]>
+            </line>
+            <line>
+              <![CDATA[Enter Email [nitish@opentrash.com] ->]]>
+            </line>
+            <line>
+              <![CDATA[Enter Password [12345] ->]]>
+            </line>
+            <line>
+              <![CDATA[Enter Confirm Password [] ->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M2_TS02_VerifyPasswordStrength -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="goToHomePage" is-config="true" duration-ms="313" started-at="2018-07-10T01:41:34Z" finished-at="2018-07-10T01:41:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M2_TS02_VerifyPasswordStrength(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="M2_TS02_VerifyPasswordStrength" duration-ms="2305" started-at="2018-07-10T01:41:34Z" data-provider="dataForPwdStrengthTest" finished-at="2018-07-10T01:41:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nitish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nitish@opentrash.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345abcde]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Weak]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click Register a new account link ->]]>
+            </line>
+            <line>
+              <![CDATA[Enter Login Name [nitish] ->]]>
+            </line>
+            <line>
+              <![CDATA[Enter Email [nitish@opentrash.com] ->]]>
+            </line>
+            <line>
+              <![CDATA[Enter Password [12345abcde] ->]]>
+            </line>
+            <line>
+              <![CDATA[Enter Confirm Password [] ->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M2_TS02_VerifyPasswordStrength -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="goToHomePage" is-config="true" duration-ms="260" started-at="2018-07-10T01:41:36Z" finished-at="2018-07-10T01:41:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M2_TS03_Registeration_ErrorMessageVerification(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="M2_TS03_Registeration_ErrorMessageVerification" duration-ms="1048" started-at="2018-07-10T01:41:37Z" data-provider="dataForFieldErrorsTest" finished-at="2018-07-10T01:41:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[email]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[confirmpass]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Your login is required.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click Register a new account link ->]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Login Error Message Your login is required.->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M2_TS03_Registeration_ErrorMessageVerification -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="goToHomePage" is-config="true" duration-ms="321" started-at="2018-07-10T01:41:38Z" finished-at="2018-07-10T01:41:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M2_TS03_Registeration_ErrorMessageVerification(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="M2_TS03_Registeration_ErrorMessageVerification" duration-ms="913" started-at="2018-07-10T01:41:38Z" data-provider="dataForFieldErrorsTest" finished-at="2018-07-10T01:41:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[email]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[confirmpass]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Your login can only contain lower-case letters and digits.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click Register a new account link ->]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Login Error Message Your login can only contain lower-case letters and digits.->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M2_TS03_Registeration_ErrorMessageVerification -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="goToHomePage" is-config="true" duration-ms="338" started-at="2018-07-10T01:41:39Z" finished-at="2018-07-10T01:41:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M2_TS03_Registeration_ErrorMessageVerification(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="M2_TS03_Registeration_ErrorMessageVerification" duration-ms="1300" started-at="2018-07-10T01:41:39Z" data-provider="dataForFieldErrorsTest" finished-at="2018-07-10T01:41:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a123456789012345678901234567890123456789012345678901]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Your login cannot be longer than 50 characters.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click Register a new account link ->]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Login Error Message Your login cannot be longer than 50 characters.->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M2_TS03_Registeration_ErrorMessageVerification -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="goToHomePage" is-config="true" duration-ms="283" started-at="2018-07-10T01:41:41Z" finished-at="2018-07-10T01:41:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M2_TS03_Registeration_ErrorMessageVerification(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="M2_TS03_Registeration_ErrorMessageVerification" duration-ms="841" started-at="2018-07-10T01:41:41Z" data-provider="dataForFieldErrorsTest" finished-at="2018-07-10T01:41:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[email]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Your e-mail is invalid.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click Register a new account link ->]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Email Error Message Your e-mail is invalid.->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M2_TS03_Registeration_ErrorMessageVerification -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="goToHomePage" is-config="true" duration-ms="269" started-at="2018-07-10T01:41:42Z" finished-at="2018-07-10T01:41:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M2_TS03_Registeration_ErrorMessageVerification(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="M2_TS03_Registeration_ErrorMessageVerification" duration-ms="932" started-at="2018-07-10T01:41:42Z" data-provider="dataForFieldErrorsTest" finished-at="2018-07-10T01:41:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[a@a.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Your e-mail is required.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click Register a new account link ->]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Email Error Message Your e-mail is required.->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M2_TS03_Registeration_ErrorMessageVerification -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="goToHomePage" is-config="true" duration-ms="324" started-at="2018-07-10T01:41:43Z" finished-at="2018-07-10T01:41:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M2_TS03_Registeration_ErrorMessageVerification(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="M2_TS03_Registeration_ErrorMessageVerification" duration-ms="906" started-at="2018-07-10T01:41:43Z" data-provider="dataForFieldErrorsTest" finished-at="2018-07-10T01:41:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[a@a]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Your e-mail is required to be at least 5 characters.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click Register a new account link ->]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Email Error Message Your e-mail is required to be at least 5 characters.->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M2_TS03_Registeration_ErrorMessageVerification -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="goToHomePage" is-config="true" duration-ms="287" started-at="2018-07-10T01:41:44Z" finished-at="2018-07-10T01:41:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="FAIL" signature="M2_TS03_Registeration_ErrorMessageVerification(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="M2_TS03_Registeration_ErrorMessageVerification" duration-ms="1400" started-at="2018-07-10T01:41:44Z" data-provider="dataForFieldErrorsTest" finished-at="2018-07-10T01:41:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[email1234567890123456789012345678901234567812@com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Your e-mail cannot be longer than 50 characters.]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Your e-mail cannot be longer than 50 characters.] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Your e-mail cannot be longer than 50 characters.] but found []
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.gurukula.tests.RegistrationTest.M2_TS03_Registeration_ErrorMessageVerification(RegistrationTest.java:102)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Click Register a new account link ->]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Email Error Message ->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M2_TS03_Registeration_ErrorMessageVerification -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="goToHomePage" is-config="true" duration-ms="371" started-at="2018-07-10T01:41:46Z" finished-at="2018-07-10T01:41:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M2_TS03_Registeration_ErrorMessageVerification(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="M2_TS03_Registeration_ErrorMessageVerification" duration-ms="878" started-at="2018-07-10T01:41:46Z" data-provider="dataForFieldErrorsTest" finished-at="2018-07-10T01:41:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[a@abc.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Your password is required.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click Register a new account link ->]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Password Error Message Your password is required.->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M2_TS03_Registeration_ErrorMessageVerification -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="goToHomePage" is-config="true" duration-ms="273" started-at="2018-07-10T01:41:47Z" finished-at="2018-07-10T01:41:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M2_TS03_Registeration_ErrorMessageVerification(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="M2_TS03_Registeration_ErrorMessageVerification" duration-ms="754" started-at="2018-07-10T01:41:47Z" data-provider="dataForFieldErrorsTest" finished-at="2018-07-10T01:41:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[a@abc.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[p]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Your password is required to be at least 5 characters.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click Register a new account link ->]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Password Error Message Your password is required to be at least 5 characters.->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M2_TS03_Registeration_ErrorMessageVerification -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="goToHomePage" is-config="true" duration-ms="425" started-at="2018-07-10T01:41:48Z" finished-at="2018-07-10T01:41:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M2_TS03_Registeration_ErrorMessageVerification(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="M2_TS03_Registeration_ErrorMessageVerification" duration-ms="1487" started-at="2018-07-10T01:41:49Z" data-provider="dataForFieldErrorsTest" finished-at="2018-07-10T01:41:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[a@abc.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[password1234567890password1234567890password1234567]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Your password cannot be longer than 50 characters.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click Register a new account link ->]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Password Error Message Your password cannot be longer than 50 characters.->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M2_TS03_Registeration_ErrorMessageVerification -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="goToHomePage" is-config="true" duration-ms="301" started-at="2018-07-10T01:41:50Z" finished-at="2018-07-10T01:41:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="FAIL" signature="M2_TS03_Registeration_ErrorMessageVerification(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="M2_TS03_Registeration_ErrorMessageVerification" duration-ms="722" started-at="2018-07-10T01:41:50Z" data-provider="dataForFieldErrorsTest" finished-at="2018-07-10T01:41:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[a@abc.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12345$]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Password should begin with a alphabet and should contain a number and a special character.]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Password should begin with a alphabet and should contain a number and a special character.] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Password should begin with a alphabet and should contain a number and a special character.] but found []
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.gurukula.tests.RegistrationTest.M2_TS03_Registeration_ErrorMessageVerification(RegistrationTest.java:119)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Click Register a new account link ->]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Password Error Message ->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M2_TS03_Registeration_ErrorMessageVerification -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="goToHomePage" is-config="true" duration-ms="300" started-at="2018-07-10T01:41:51Z" finished-at="2018-07-10T01:41:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M2_TS03_Registeration_ErrorMessageVerification(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="M2_TS03_Registeration_ErrorMessageVerification" duration-ms="907" started-at="2018-07-10T01:41:51Z" data-provider="dataForFieldErrorsTest" finished-at="2018-07-10T01:41:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[a@a]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[112345]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Your confirmation password is required.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click Register a new account link ->]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Confirm Password Error Message Your confirmation password is required.->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M2_TS03_Registeration_ErrorMessageVerification -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="goToHomePage" is-config="true" duration-ms="302" started-at="2018-07-10T01:41:52Z" finished-at="2018-07-10T01:41:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M2_TS03_Registeration_ErrorMessageVerification(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="M2_TS03_Registeration_ErrorMessageVerification" duration-ms="1422" started-at="2018-07-10T01:41:53Z" data-provider="dataForFieldErrorsTest" finished-at="2018-07-10T01:41:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[a@a]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[password1234567890password1234567890password1234567]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Your confirmation password cannot be longer than 50 characters.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click Register a new account link ->]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Confirm Password Error Message Your confirmation password cannot be longer than 50 characters.->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M2_TS03_Registeration_ErrorMessageVerification -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="goToHomePage" is-config="true" duration-ms="404" started-at="2018-07-10T01:41:54Z" finished-at="2018-07-10T01:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M2_TS03_Registeration_ErrorMessageVerification(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="M2_TS03_Registeration_ErrorMessageVerification" duration-ms="842" started-at="2018-07-10T01:41:54Z" data-provider="dataForFieldErrorsTest" finished-at="2018-07-10T01:41:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[a@a]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Your confirmation password is required to be at least 5 characters.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click Register a new account link ->]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Confirm Password Error Message Your confirmation password is required to be at least 5 characters.->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M2_TS03_Registeration_ErrorMessageVerification -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="goToHomePage" is-config="true" duration-ms="275" started-at="2018-07-10T01:41:55Z" finished-at="2018-07-10T01:41:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="FAIL" signature="M2_TS03_Registeration_ErrorMessageVerification(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="M2_TS03_Registeration_ErrorMessageVerification" duration-ms="1006" started-at="2018-07-10T01:41:56Z" data-provider="dataForFieldErrorsTest" finished-at="2018-07-10T01:41:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[a@a]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[12345$]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Password should begin with a alphabet and should contain a number and a special character.]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Password should begin with a alphabet and should contain a number and a special character.] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Password should begin with a alphabet and should contain a number and a special character.] but found []
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.gurukula.tests.RegistrationTest.M2_TS03_Registeration_ErrorMessageVerification(RegistrationTest.java:137)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Click Register a new account link ->]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Confirm Password Error Message ->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M2_TS03_Registeration_ErrorMessageVerification -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="goToHomePage" is-config="true" duration-ms="395" started-at="2018-07-10T01:41:57Z" finished-at="2018-07-10T01:41:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M2_TS03_Registeration_ErrorMessageVerification(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="M2_TS03_Registeration_ErrorMessageVerification" duration-ms="2864" started-at="2018-07-10T01:41:57Z" data-provider="dataForFieldErrorsTest" finished-at="2018-07-10T01:42:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[16]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[a@a.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[45678]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[The password and its confirmation do not match!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click Register a new account link ->]]>
+            </line>
+            <line>
+              <![CDATA[Enter Login Name [user] ->]]>
+            </line>
+            <line>
+              <![CDATA[Enter Email [a@a.com] ->]]>
+            </line>
+            <line>
+              <![CDATA[Enter Password [12345] ->]]>
+            </line>
+            <line>
+              <![CDATA[Enter Confirm Password [45678] ->]]>
+            </line>
+            <line>
+              <![CDATA[Verification of Password Mismatch Error Message ->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- M2_TS03_Registeration_ErrorMessageVerification -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="goToHomePage" is-config="true" duration-ms="307" started-at="2018-07-10T01:42:00Z" finished-at="2018-07-10T01:42:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="M2_TS04_VerifyRegistrationEnable()[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="M2_TS04_VerifyRegistrationEnable" duration-ms="2462" started-at="2018-07-10T01:42:00Z" finished-at="2018-07-10T01:42:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- M2_TS04_VerifyRegistrationEnable -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.gurukula.tests.RegistrationTest@1e88b3c]" name="goToHomePage" is-config="true" duration-ms="279" started-at="2018-07-10T01:42:03Z" finished-at="2018-07-10T01:42:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+      </class> <!-- com.gurukula.tests.RegistrationTest -->
+    </test> <!-- Full Regression Test -->
+  </suite> <!-- Gurukula Regression Automation Suite -->
+</testng-results>

@@ -122,6 +122,7 @@ public class LoginTest {
 
 	@AfterTest
 	public void finishTest() {
+
 		gbl.cleanup();
 	}
 

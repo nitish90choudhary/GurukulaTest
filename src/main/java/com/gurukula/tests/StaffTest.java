@@ -157,6 +157,7 @@ public class StaffTest {
 
 	@AfterTest
 	public void finishTest() {
+		menupage.clickLogout();
 		gbl.cleanup();
 	}
 

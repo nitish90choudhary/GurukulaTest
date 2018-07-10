@@ -185,7 +185,10 @@ public class BranchTest {
 
 	@AfterTest
 	public void finishTest() {
+
+		menupage.clickLogout();
 		gbl.cleanup();
+
 	}
 
 	// TEST DATA FOR STAFF TEST
